@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "description": "ET - Ear Trainer",
+    "media": "Videos/Bilder",
+    "faq": "FAQ",
+    "press": "Presse",
+    "feedback": "Feedback",
+    "about": "Über"
+  },
+  "lang_keys": {
+    "en": "English",
+    "de": "German"
+  },
+  "header": {
+    "new-info": "Jetzt auch mit Kadenzen!",
+    "scroll-info": "Scrollen für mehr Informationen"
+  },
+  "version": {
+    "tag": "Neu"
+  },
+  "stats": {
+    "downloads": "Downloads",
+    "exercises": "Übungen",
+    "achievements": "Errungenschaften"
+  },
+  "images": {
+    "1_alt": "Promotionsbild Mikrofon und Toneingabe",
+    "2_alt": "Promotionsbild 30 Übungen unnd 190 Errungenschaften",
+    "3_alt": "Promotionsbild Detaillierte Lernkontrollen: Individualisierbare Übungen",
+    "4_alt": "Promotionsbild Aktive Übungen",
+    "5_alt": "Promotionsbild Vierklänte erkennen",
+    "6_alt": "Promotionsbild Hilfstexte",
+    "7_alt": "Promotionsbild Übersicht Errungenschaften",
+    "8_alt": "Promotionsbild Online Rangliste"
+  },
+  "feedback": {
+    "label-name": "Name",
+    "label-subject": "Betreff",
+    "label-email": "Email-Adresse",
+    "label-message": "Nachricht",
+    "submit": "Abschicken",
+    "submitting": "Senden...",
+    "submitted": "Gesendet!",
+    "errors": {
+      "required": "{field} ist erforderlich",
+      "email": "Mailadresse ist ungültig",
+      "min-length": "{field} muss mindestens {characters} Zeichen enthalten",
+      "max-length": "{field} darf höchstens {characters} Zeichen enthalten",
+      "generic": "Ein Fehler ist aufgetreten, bitte versuchen Sie es später erneut.",
+      "captcha": "Anti-Roboter Verifizierung fehlgeschlagen. Bitte versuchen Sie es später erneut."
+    }
+  },
+  "footer": {
+    "send-email": "Email schicken",
+    "privacy-policy-website": "Privacy Policy (Website)",
+    "privacy-policy-app": "Privacy Policy (App)",
+    "imprint": "Impressum"
+  }
+}

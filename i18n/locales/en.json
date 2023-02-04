@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "description": "ET - Ear Trainer",
+    "media": "Videos/Images",
+    "faq": "FAQ",
+    "press": "Press",
+    "feedback": "Feedback",
+    "about": "About"
+  },
+  "lang_keys": {
+    "en": "English",
+    "de": "German"
+  },
+  "header": {
+    "new-info": "Practice chord progressions now!",
+    "scroll-info": "Scroll to learn more"
+  },
+  "version": {
+    "tag": "New"
+  },
+  "stats": {
+    "downloads": "Downloads",
+    "exercises": "Exercises",
+    "achievements": "Achievements"
+  },
+  "images": {
+    "1_alt": "Promotion Image Microphone sound input",
+    "2_alt": "Promotion Image 30 Exercises and 190 Achievements",
+    "3_alt": "Promotion Image Educational Guidance system: Customizable exercises",
+    "4_alt": "Promotion Image Active exercises",
+    "5_alt": "Promotion Image Recognizing chords",
+    "6_alt": "Promotion Image Explanatory texts",
+    "7_alt": "Promotion Image Achievement board",
+    "8_alt": "Promotion Image Online leaderboard"
+  },
+  "feedback": {
+    "label-name": "Name",
+    "label-subject": "Subject",
+    "label-email": "Email",
+    "label-message": "Message",
+    "submit": "Submit",
+    "submiting": "Sending...",
+    "submitted": "Sent!",
+    "errors": {
+      "required": "{field} is required",
+      "email": "Please enter a valid email address",
+      "min-length": "{field} must be at least {characters} characters long",
+      "max-length": "{field} must be less than {characters} characters",
+      "generic": "An error occurred, please try again later.",
+      "captcha": "Anti-Robot verification failed, please try again later."
+    }
+  },
+  "footer": {
+    "send-email": "Send Email",
+    "privacy-policy-website": "Privacy Policy (Website)",
+    "privacy-policy-app": "Privacy Policy (App)",
+    "imprint": "Imprint"
+  }
+}
