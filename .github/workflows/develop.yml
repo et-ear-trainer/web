@@ -1,0 +1,32 @@
+on: 
+  push:
+    branches:
+      - develop
+name: Deploy dev
+jobs:
+  dev-web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v2
+
+    - name: Use Node.js 18
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+      
+    - name: Build Project
+      run: |
+        yarn install
+        yarn build
+        yarn generate
+    
+    - name: Deploy over FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      with:
+        server: eliaschenker.com
+        username: ${{ secrets.DEV_FTP_USERNAME }}
+        password: ${{ secrets.DEV_FTP_PASSWORD }}
+        server-dir: /
+        local-dir: ./dist/
