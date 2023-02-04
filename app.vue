@@ -5,27 +5,27 @@
       <Link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/apple-touch-icon.png"
+        href="/ET_App/apple-touch-icon.png"
       />
       <Link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon-32x32.png"
+        href="/ET_App/favicon-32x32.png"
       />
       <Link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon-16x16.png"
+        href="/ET_App/favicon-16x16.png"
       />
       <Link
         rel="manifest"
-        href="/site.webmanifest"
+        href="/ET_App/site.webmanifest"
       />
       <Link
         rel="mask-icon"
-        href="/safari-pinned-tab.svg"
+        href="/ET_App/safari-pinned-tab.svg"
         color="#5bbad5"
       />
       <Meta
