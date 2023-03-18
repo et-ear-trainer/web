@@ -8,7 +8,11 @@ module.exports = {
     ],
     theme: {
         extend: {
-            /* @todo setup styling */
+            colors: {
+                'et-blue-dark': '#2F2B8C',
+                'et-blue-mid': '#215BA6',
+                'et-blue-light': '#019DE1'
+            }
         }
     },
     postcss: {

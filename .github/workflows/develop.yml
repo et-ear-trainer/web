@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get latest code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Use Node.js 18
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-        node-version: '18'
+        node-version: 18
       
     - name: Build Project
       run: |
@@ -23,7 +23,7 @@ jobs:
         yarn generate
     
     - name: Deploy over FTP
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: eliaschenker.com
         username: ${{ secrets.DEV_FTP_USERNAME }}

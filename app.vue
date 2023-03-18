@@ -2,6 +2,7 @@
   <div>
     <Head>
       <Title>ET - Ear Trainer</Title>
+      <!-- Favicon -->
       <Link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -36,7 +37,14 @@
         name="theme-color"
         content="#ffffff"
       />
+      <!-- Material icons-->
+      <Link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      />
     </Head>
-    <NuxtWelcome />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>

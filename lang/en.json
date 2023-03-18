@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "description": "ET - Ear Trainer",
+    "media": "Videos/Images",
+    "faq": "FAQ",
+    "press": "Press",
+    "feedback": "Feedback",
+    "about": "About"
+  },
+  "lang_keys": {
+    "en": "English",
+    "de": "German"
+  },
+  "header": {
+    "scroll-info": "Scroll to learn more"
+  }
+}
