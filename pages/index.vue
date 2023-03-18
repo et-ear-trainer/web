@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <page-header />
-    <quotes />
-    <divider />
-    <stats />
-  </div>
+  <ContentDoc :path="docPath" />
 </template>
+<script lang="ts" setup>
+  const { locale } = useI18n();
+  const docPath = computed(() => `${locale.value}`);
+</script>

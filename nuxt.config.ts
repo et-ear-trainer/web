@@ -7,23 +7,25 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         '@nuxtjs/i18n',
         '@vueuse/nuxt',
+        '@nuxt/content'
     ],
     css: [
         '~/assets/scss/index.scss'
     ],
     i18n: {
-        locales: [
-            {
-              code: 'en',
-              file: 'en.json'
-            },
-            {
-              code: 'de',
-              file: 'de.json'
-            }
-          ],
-          lazy: true,
-          langDir: 'lang',
-          defaultLocale: 'en'
+      locales: [
+          {
+            code: 'en',
+            file: 'en.json'
+          },
+          {
+            code: 'de',
+            file: 'de.json'
+          }
+        ],
+        lazy: true,
+        langDir: 'lang',
+        defaultLocale: 'en',
+        strategy: 'no_prefix'
     }
 });

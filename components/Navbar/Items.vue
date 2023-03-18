@@ -13,17 +13,16 @@
     :key="item.code"
     class="item"
     :class="{'language-selected': item.code === locale}"
+    @click="setLocale(item.code)"
   >
-    <NuxtLink :to="switchLocalePath(item.code)">
-      {{ $t(`lang_keys.${item.code}`) }}
-    </NuxtLink>
+    {{ $t(`lang_keys.${item.code}`) }}
   </div>
 </template>
 <script lang="ts" setup>
   import { LocaleObject } from 'vue-i18n-routing';
 
   const switchLocalePath = useSwitchLocalePath();
-  const { locale, locales } = useI18n();
+  const { locale, locales, setLocale } = useI18n();
   
   const availableLocales = computed(() => {
     return locales.value as LocaleObject[];
