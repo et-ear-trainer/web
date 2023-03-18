@@ -1,12 +1,1 @@
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
-# Hallo Welt
+:page-header

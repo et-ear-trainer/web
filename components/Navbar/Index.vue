@@ -1,6 +1,7 @@
 <template>
   <div
     class="navbar-wrapper"
+    :class="{'navbar-top': arrivedState.top}"
   >
     <div
       class="navbar"
@@ -20,10 +21,7 @@
 </template>
 <script lang=ts setup>
   import { useScroll } from '@vueuse/core';
-  //     :class="{'navbar-top': arrivedState.top}"
- // const { arrivedState } = useScroll(window);
-  
-    
+  const { arrivedState } = useScroll(window);
 </script>
 <style lang="scss" scoped>
   .navbar-wrapper {

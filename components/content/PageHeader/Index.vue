@@ -33,21 +33,11 @@
         </a>
       </div>
     </div>
-    <div
-      class="scroll-explore"
-      :class="{'scroll-explore-hidden': !arrivedState.top}"
-    >
-      <p> {{ $t("header.scroll-info") }} </p>
-      <div class="icon">
-        <base-icon name="expand_more" />
-      </div>
-    </div>
+    <ClientOnly>
+      <scroll-explore />
+    </ClientOnly>
   </div>
 </template>
-<script lang="ts" setup>
-  import { useScroll } from '@vueuse/core'; 
-  const { arrivedState } = useScroll(window);
-</script>
 <style lang="scss" scoped>
   .header-wrapper {
     @apply h-screen text-white bg-black flex flex-col justify-center;

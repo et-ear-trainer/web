@@ -1,7 +1,9 @@
 <template>
   <div>
     <div>
-      <Navbar />
+      <client-only>
+        <Navbar />
+      </client-only>
     </div>
     <slot />
   </div>

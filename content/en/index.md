@@ -1,12 +1,9 @@
-# Hello World
-# Hello World
-# Hello World
-# Hello World
-# Hello World
-# Hello World
-# Hello World
-# Hello World
-# Hello World
-# Hello World
-# Hello World
-# Hello World
+:page-header
+
+:quotes
+
+:divider
+
+:stats
+
+:divider
