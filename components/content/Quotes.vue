@@ -9,7 +9,7 @@
         class="quote"
       >
         <p class="quote-text">
-          “{{ currentQuote.quote }}
+          “{{ currentQuote.quote }}“
         </p>
         <p class="person-text">
           - {{ currentQuote.person }}

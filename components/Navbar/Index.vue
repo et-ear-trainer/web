@@ -25,7 +25,7 @@
 </script>
 <style lang="scss" scoped>
   .navbar-wrapper {
-    @apply fixed w-full h-14;
+    @apply fixed w-full h-14 z-40;
     .navbar {
       @apply 
         transition-all

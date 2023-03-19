@@ -1,50 +1,16 @@
 <template>
   <div>
-    <Head>
-      <Title>ET - Ear Trainer</Title>
-      <!-- Favicon -->
-      <Link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/ET_App/apple-touch-icon.png"
-      />
-      <Link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/ET_App/favicon-32x32.png"
-      />
-      <Link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/ET_App/favicon-16x16.png"
-      />
-      <Link
-        rel="manifest"
-        href="/ET_App/site.webmanifest"
-      />
-      <Link
-        rel="mask-icon"
-        href="/ET_App/safari-pinned-tab.svg"
-        color="#5bbad5"
-      />
-      <Meta
-        name="msapplication-TileColor"
-        content="#da532c"
-      />
-      <Meta
-        name="theme-color"
-        content="#ffffff"
-      />
-      <!-- Material icons-->
-      <Link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
-      />
-    </Head>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
+    <transition
+      name="fade"
+      mode="out-in"
+    >
+      <image-detail v-if="isImageOpen" />
+    </transition>
   </div>
 </template>
+<script lang="ts" setup>
+  const { isImageOpen } = useImages();
+</script>

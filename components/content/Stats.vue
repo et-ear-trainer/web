@@ -15,10 +15,11 @@
         <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
         <template #suffix>+</template>
       </count-up>
-      <p>Downloads</p>
+      <p> {{ $t('stats.downloads') }} </p>
       <div class="icon">
         <base-icon
           name="download"
+          :size="36"
         />
       </div>
     </div>
@@ -29,11 +30,11 @@
         :end-val="30"
         :duration="3"
       />
-      <p>Exercises</p>
+      <p> {{ $t('stats.exercises') }} </p>
       <div class="icon">
-        <base-icon
-       
-          name="download"
+        <base-icon  
+          name="mic"
+          :size="36"
         />
       </div>
     </div>
@@ -44,11 +45,11 @@
         :end-val="190"
         :duration="3"
       />
-      <p>Achievments</p>
+      <p>{{ $t('stats.achievements') }}</p>
       <div class="icon">
         <base-icon
-        
-          name="download"
+          name="trophy"
+          :size="36"
         />
       </div>  
     </div>
@@ -79,16 +80,27 @@ watch(targetIsVisible, (to) => {
     .stat {
       @apply text-center;
       :deep(.countup-wrap) {
-        @apply text-5xl ml-1 text-et-blue-light;
+        @apply
+          text-7xl
+          text-et-blue-light
+          bg-clip-text
+          text-transparent
+          bg-gradient-to-br
+          to-et-blue-light
+          from-et-blue-dark;
       }
 
       p {
-        @apply my-2;
+        @apply mt-4 mb-3 text-2xl;
       }
 
       .icon {
         :deep(span) {
           @apply text-gray-400;
+        }
+
+        :deep(svg) {
+          @apply  fill-gray-400;
         }
       }
     } 

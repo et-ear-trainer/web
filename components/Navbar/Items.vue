@@ -1,13 +1,12 @@
 <template>
-  <div
+  <nuxt-link
     v-for="item in navbarItems"
     :key="item"
+    :to="{path: '/', hash: `#${item}`}"
     class="item"
   >
-    <NuxtLink :to="{path: '/', hash: `#${item}`}">
-      {{ $t(`nav.${item}`) }}
-    </NuxtLink>
-  </div>
+    {{ $t(`nav.${item}`) }}
+  </nuxt-link>
   <div
     v-for="item in availableLocales"
     :key="item.code"

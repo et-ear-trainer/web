@@ -13,5 +13,23 @@
   },
   "header": {
     "scroll-info": "Scroll to learn more"
+  },
+  "stats": {
+    "downloads": "Downloads",
+    "exercises": "Exercises",
+    "achievements": "Achievements"
+  },
+  "images": {
+    "1_alt": "TODO",
+    "2_alt": "TODO",
+    "3_alt": "TODO",
+    "4_alt": "TODO",
+    "5_alt": "TODO",
+    "6_alt": "TODO",
+    "7_alt": "TODO",
+    "8_alt": "TODO"
+  },
+  "press": {
+    "read-article": "Read the article"
   }
 }

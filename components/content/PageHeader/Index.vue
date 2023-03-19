@@ -5,6 +5,7 @@
       <img
         class="logo"
         src="~/assets/img/et-logo.png"
+        alt="ET - Ear Trainer Logo"
       >
       <div class="download-buttons">
         <a
@@ -13,6 +14,7 @@
         >
           <img
             src="~/assets/img/appstorebtn.png"
+            alt="IOS Appstore Download Button"
           >
         </a>
         <a
@@ -21,6 +23,7 @@
         >
           <img
             src="~/assets/img/macappstorebtn.svg"
+            alt="Mac Appstore Download Button"
           >
         </a>
         <a
@@ -29,6 +32,7 @@
         >
           <img
             src="~/assets/img/playstorebtn.png"
+            alt="Playstore Download Button"
           >
         </a>
       </div>
@@ -59,30 +63,6 @@
             @apply h-full;
           }
         }
-      }
-    }
-
-    .scroll-explore {
-      @apply w-full flex flex-col items-center mb-5 transition-opacity;
-
-     .icon {
-        @apply mt-2;
-        animation: bounce 1s infinite;
-      }
-
-      @keyframes bounce {
-        0%, 100% {
-          transform: translateY(-12%);
-          animation-timing-function: cubic-bezier(0.8,0,1,1);
-        }
-        50% {
-          transform: none;
-          animation-timing-function: cubic-bezier(0,0,0.2,1);
-        }
-      }
-
-      &-hidden {
-        @apply opacity-0;
       }
     }
   }

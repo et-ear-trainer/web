@@ -3,6 +3,14 @@
 </template>
 <style lang="scss" scoped>
   hr {
-    @apply my-10 border-t-gray-200 mx-64 border-t-2;
+    @apply
+      mx-8
+      sm:mx-10
+      md:mx-64
+      my-10
+      
+      border-t-gray-200
+      border-t-2
+    ;
   }
 </style>
