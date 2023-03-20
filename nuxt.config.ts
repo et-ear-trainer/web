@@ -31,9 +31,6 @@ export default defineNuxtConfig({
     css: [
         '~/assets/scss/index.scss'
     ],
-    content: {
-      slug: false
-    },
     i18n: {
       locales: [
           {

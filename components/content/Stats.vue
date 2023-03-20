@@ -9,7 +9,7 @@
       <count-up
         ref="counter1"
         :start-val="0"
-        :end-val="400"
+        :end-val="1000"
         :duration="3"
       >
         <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->

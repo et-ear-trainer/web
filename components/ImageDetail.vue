@@ -10,10 +10,11 @@
     />
     <swiper
       :slides-per-view="1"
+      :navigation="true"
       :pagination="{
         clickable: true,
       }"
-      :modules="[Pagination]"
+      :modules="[Pagination, Navigation]"
       effect="slide"
       :initial-slide="currentImage"
     >
@@ -25,6 +26,7 @@
         <img
           :src="image.fullPath"
           :alt="image.alt"
+          class="select-none"
         >
       </swiper-slide>
       ...
@@ -33,9 +35,10 @@
 </template>
 <script lang="ts" setup>
   import { Swiper, SwiperSlide } from 'swiper/vue';
-  import { Pagination } from 'swiper';
+  import { Pagination, Navigation } from 'swiper';
   import { useMagicKeys } from '@vueuse/core';
   import 'swiper/css/pagination';
+  import 'swiper/css/navigation';
   import 'swiper/css';
 
   const { images, currentImage, closeImage } = useImages();
