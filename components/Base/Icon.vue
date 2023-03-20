@@ -21,7 +21,7 @@
   const props = withDefaults(
     defineProps<{
       name: string,
-      size?: 18 | 24 | 36 | 48
+      size?: 18 | 24 | 28 | 36 | 48
     }>(),
     {
       size: 18

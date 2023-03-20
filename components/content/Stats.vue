@@ -9,7 +9,7 @@
       <count-up
         ref="counter1"
         :start-val="0"
-        :end-val="1000"
+        :end-val="1100"
         :duration="3"
       >
         <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
@@ -27,7 +27,7 @@
       <count-up
         ref="counter2"
         :start-val="0"
-        :end-val="30"
+        :end-val="31"
         :duration="3"
       />
       <p> {{ $t('stats.exercises') }} </p>
@@ -42,7 +42,7 @@
       <count-up
         ref="counter3"
         :start-val="0"
-        :end-val="190"
+        :end-val="192"
         :duration="3"
       />
       <p>{{ $t('stats.achievements') }}</p>
@@ -76,7 +76,7 @@ watch(targetIsVisible, (to) => {
 </script>
 <style lang="scss" scoped>
   .stats-wrapper {
-    @apply w-fit my-6 flex gap-16 mx-auto px-14;
+    @apply w-fit my-6 flex flex-col sm:flex-row gap-16 mx-auto px-14;
     .stat {
       @apply text-center;
       :deep(.countup-wrap) {

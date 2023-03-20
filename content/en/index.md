@@ -157,13 +157,13 @@ The identification of top note positions (triads and four-note chords) is diffic
 #text
 The _Imitation, atonal_ exercise can be practiced in two different ways, it does not require absolute pitch:
 
-1. Reference tone method (vertical hearing):
+1\. Reference tone method (vertical hearing):
 This method helps to develop the referential hearing and improves the ability to keep a reference tone in your ear for a longer time:
 - If the "Easy" option is switched on, a "C" reference tone is played at the beginning. The reference tone depends on the transposition; transposition can be changed in the _settings_.
 - Press the arrow, a tone is played; try to hear it in relation to the reference tone.
 - Before each further query, try to recall the reference tone; if necessary, it can be replayed on the app keyboard.
 
-2. Intervals (horizontal hearing):
+2\. Intervals (horizontal hearing):
 - Each new note is derived from the last note by interval detection.
 
 If the option "Exact octaves" is switched off, all notes can be played or sung within one octave.:
@@ -182,10 +182,10 @@ It is not yet entirely clear whether absolute pitch is innate or acquired in inf
 I am looking for assistance with mouthpiece buzzing - can the app help here?
 #text
 Yes. Since the app only recognizes reasonably consistent and well-intonated notes, it can help improve intonation and airflow when buzzing. Two exercises:
-1. Simple exercise, range: 1 octave.
+1\. Simple exercise, range: 1 octave.
 - Select _Imitation, major keys_. After the prompt, buzz any root note. The app will play random notes of that scale, which must be imitated. If the "Easy" option is set, the whole ascending scale has to be buzzed first.
 
-2. More advanced exercise, trumpet:
+2\. More advanced exercise, trumpet:
 - Select the "Bb" transposition in the settings.
 - Set the "Easy" option
 - Select the _Imitation, atonal_ exercise. The app plays a transposed "C" (Bb concert) as a reference note; when you start the exercise, the app plays random tones, which have to be imitated. For warm-ups, turn off the "Exact octaves" option, so the notes can be buzzed in any octave position.

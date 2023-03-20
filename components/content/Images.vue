@@ -17,7 +17,7 @@
   @apply flex flex-wrap justify-between items-center;
 
   img {
-    @apply cursor-pointer;
+    @apply cursor-pointer mx-auto md:mx-0;
   }
 }
 </style>

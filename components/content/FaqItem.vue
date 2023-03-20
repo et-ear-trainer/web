@@ -1,23 +1,29 @@
 <template>
-  <div class="container">
-    <div
-      class="title"
-      @click="toggle"
-    >
-      <base-icon
-        name="expand_more"
-        :size="36"
-        class="icon"
+  <div
+    ref="faq"
+    class="container faq"
+  >
+    <client-only>
+      <div
+        class="title"
+        @click="toggle"
+      >
+        <base-icon
+          name="expand_more"
+          :size="36"
+          class="icon"
+          :class="{open}"
+        />
+        <span class="h-full">{{ faqNumber }}.&nbsp;</span>
+        <slot name="title" />
+      </div>
+      <div
+        class="text"
         :class="{open}"
-      />
-      <slot name="title" />
-    </div>
-    <div
-      class="text"
-      :class="{open}"
-    >
-      <slot name="text" />
-    </div>
+      >
+        <slot name="text" />
+      </div>
+    </client-only>
   </div>
 </template>
 <script lang="ts" setup>
@@ -27,6 +33,17 @@
     open.value = !open.value;
   };
 
+  const faq = ref<HTMLElement>();
+
+  const faqNumber = computed(() => {
+    if (process.client) {
+      if (faq.value) {
+        const children = [].slice.call( document.getElementsByClassName('faq')) as HTMLElement[];
+        return children.indexOf(faq.value) + 1;
+      }
+    }
+    return 0;
+  });
 </script>
 <style lang="scss" scoped>
 .container {

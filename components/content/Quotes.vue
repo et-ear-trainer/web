@@ -86,16 +86,16 @@
 </script>
 <style lang="scss" scoped>
   .quotes-wrapper {
-    @apply h-[300px] w-full flex items-center justify-center;
+    @apply min-h-[300px] max-w-full flex items-center justify-center px-7;
 
     .quote {
-
+      @apply max-w-full;
       .quote-text {
         @apply max-w-lg;
       }
 
       .person-text {
-        @apply translate-x-32;
+        @apply ml-20 mt-5;
       }
     }
   }

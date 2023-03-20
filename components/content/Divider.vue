@@ -6,7 +6,8 @@
     @apply
       mx-8
       sm:mx-10
-      md:mx-64
+      md:mx-32
+      lg:mx-64
       my-10
       
       border-t-gray-200

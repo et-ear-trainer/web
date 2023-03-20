@@ -2,7 +2,7 @@
   <nuxt-link
     v-for="item in navbarItems"
     :key="item"
-    :to="{path: '/', hash: `#${item}`}"
+    :to="{hash: `#${item}`}"
     class="item"
   >
     {{ $t(`nav.${item}`) }}
@@ -20,7 +20,6 @@
 <script lang="ts" setup>
   import { LocaleObject } from 'vue-i18n-routing';
 
-  const switchLocalePath = useSwitchLocalePath();
   const { locale, locales, setLocale } = useI18n();
   
   const availableLocales = computed(() => {
