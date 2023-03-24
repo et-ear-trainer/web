@@ -1,3 +1,10 @@
+::og-tags
+---
+title: ET - Ear Trainer
+description: Yet another ear-training app? Well, this one is different!
+---
+::
+
 :page-header
 
 :quotes
@@ -257,7 +264,9 @@ Yes, the app is optimized for iPads and can also be used in landscape mode; due 
 
 **Inside Limmattal, Thomas Pfann, November 2022 - Portrait about Daniel and Elia Schenker (german)**
 
-:read-article{:link="press/Portrait-Dani-Elia-Inside-Limmattal-Nov2022.pdf"}
+::content-button{to="press/Portrait-Dani-Elia-Inside-Limmattal-Nov2022.pdf" icon="feed"}
+Read the article
+::
 
 **Schweizer Musikzeitung, Andreas Chr. Szalatnay , 24.11.2021**
 
@@ -271,6 +280,45 @@ Since the app in the present version 1.02 (on the iPhone S) can only be operated
 
 The design of the app comes across as very simple and purposefully clear. It is not a game, but a learning application! The fact that after a short time quite a few improvements like the explanation tour (including links to Youtube clips in German or English) or the replay button could be included, gives hope that the app will appeal to an ever broader community. It is not only highly recommended to improvising musicians, but also to performers and composers who can achieve more precision in performance and memory with the Ear Trainer.
 
-:read-article{link="https://www.musikzeitung.ch/rezensionen/web/2021/11/eine-app-schult-unser-ohr"}
+::content-button{to="https://www.musikzeitung.ch/rezensionen/web/2021/11/eine-app-schult-unser-ohr" icon="feed"}
+Read the article
+::
 
 ::
+
+::content-section{section-anchor="feedback"}
+<br>
+
+## Feedback
+
+:feedback
+
+::
+
+::content-section{section-anchor="about"}
+<br>
+
+## About
+<br>
+
+### Daniel Schenker
+Daniel Schenker started his career as a IT specialist. Since 1995, he works as a musician. He teaches trumpet and ear training at Zurich University of the Arts ZHdK.
+
+
+::content-link{to=https://www.danielschenker.ch}
+Link to Website
+::
+
+::content-link{to=https://inf.ethz.ch/news-and-events/spotlights/infk-news-channel/2021/07/anniversary-alumni-schenker.html}
+Link to an Interview from ETH Zurich
+::
+
+<br>
+
+### Elia Schenker
+Since 2019, Elia Schenker attends the Informatikmittelschule IMS in Zurich Hottingen. 
+
+::content-link{to=https://www.eliaschenker.com}
+Link to Website
+::
+

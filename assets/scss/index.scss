@@ -24,6 +24,22 @@ h3 {
   }
 }
 
+input, textarea, .button {
+  @apply
+    border-[2px]
+    rounded-lg
+    px-4
+    py-2
+    bg-white
+    border-gray-300
+    transition-all
+  ;
+
+  &:hover, &:active {
+    @apply border-et-blue-light;
+  }
+}
+
 /* Animations */
 
 .fade-enter-active {

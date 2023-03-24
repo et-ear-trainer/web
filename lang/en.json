@@ -30,7 +30,23 @@
     "7_alt": "TODO",
     "8_alt": "TODO"
   },
-  "press": {
-    "read-article": "Read the article"
+  "feedback": {
+    "label-name": "Name",
+    "label-subject": "Subject",
+    "label-email": "Email",
+    "label-message": "Message",
+    "submit": "Submit",
+    "errors": {
+      "required": "{field} is required",
+      "email": "Please enter a valid email address",
+      "min-length": "Your message must be at least {characters} characters long",
+      "max-length": "Your message must be less than {characters} characters"
+    }
+  },
+  "footer": {
+    "send-email": "Send Email",
+    "privacy-policy-website": "Privacy Policy (Website)",
+    "privacy-policy-app": "Privacy Policy (App)",
+    "imprint": "Imprint"
   }
 }

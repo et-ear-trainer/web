@@ -1,12 +1,42 @@
 <template>
-  <button>
+  <nuxt-link
+    :to="to"
+    target="_blank"
+    class="button"
+  >
+    <base-icon
+      v-if="icon"
+      :name="icon"
+      class="icon"
+    />
     <slot />
-  </button>
+  </nuxt-link>
 </template>
 <script lang="ts" setup>
+import { RouteLocationRaw } from 'vue-router';
+
+defineProps<{
+  icon?: string,
+  to?: RouteLocationRaw
+}>();
 </script>
 <style lang="scss" scoped>
-button {
-  
+.button {
+  @apply
+    w-fit
+    h-12
+    flex
+    gap-2
+    cursor-pointer
+    my-4
+  ;
+
+  .icon {
+    @apply my-auto;
+  }
+
+  &:hover {
+    @apply border-et-blue-light;
+  }
 }
 </style>

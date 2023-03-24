@@ -14,7 +14,8 @@
       :pagination="{
         clickable: true,
       }"
-      :modules="[Pagination, Navigation]"
+      :keyboard="true"
+      :modules="[Pagination, Navigation, Keyboard]"
       effect="slide"
       :initial-slide="currentImage"
     >
@@ -35,7 +36,7 @@
 </template>
 <script lang="ts" setup>
   import { Swiper, SwiperSlide } from 'swiper/vue';
-  import { Pagination, Navigation } from 'swiper';
+  import { Pagination, Navigation, Keyboard } from 'swiper';
   import { useMagicKeys } from '@vueuse/core';
   import 'swiper/css/pagination';
   import 'swiper/css/navigation';

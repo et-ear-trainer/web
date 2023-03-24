@@ -78,16 +78,15 @@ watch(targetIsVisible, (to) => {
   .stats-wrapper {
     @apply w-fit my-6 flex flex-col sm:flex-row gap-16 mx-auto px-14;
     .stat {
-      @apply text-center;
+      @apply text-center w-44;
       :deep(.countup-wrap) {
         @apply
           text-7xl
-          text-et-blue-light
           bg-clip-text
           text-transparent
           bg-gradient-to-br
-          to-et-blue-light
-          from-et-blue-dark;
+        to-et-blue-light
+        from-et-blue-dark
       }
 
       p {

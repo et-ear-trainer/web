@@ -37,9 +37,6 @@
         </a>
       </div>
     </div>
-    <h3 class="new-info">
-      {{ $t('header.new-info') }}
-    </h3>
     <ClientOnly>
       <scroll-explore />
     </ClientOnly>
@@ -53,7 +50,7 @@
       @apply flex flex-col items-center justify-center gap-16 flex-grow;
 
       .logo {
-        @apply h-36 w-36 sm:h-52 sm:w-52;
+        @apply w-36 sm:w-44;
       }
 
       .download-buttons {
