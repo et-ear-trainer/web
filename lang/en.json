@@ -21,14 +21,14 @@
     "achievements": "Achievements"
   },
   "images": {
-    "1_alt": "TODO",
-    "2_alt": "TODO",
-    "3_alt": "TODO",
-    "4_alt": "TODO",
-    "5_alt": "TODO",
-    "6_alt": "TODO",
-    "7_alt": "TODO",
-    "8_alt": "TODO"
+    "1_alt": "Promotion Image Microphone sound input",
+    "2_alt": "Promotion Image 30 Exercises and 190 Achievements",
+    "3_alt": "Promotion Image Educational Guidance system: Customizable exercises",
+    "4_alt": "Promotion Image Active exercises",
+    "5_alt": "Promotion Image Recognizing chords",
+    "6_alt": "Promotion Image Explanatory texts",
+    "7_alt": "Promotion Image Achievement board",
+    "8_alt": "Promotion Image Online leaderboard"
   },
   "feedback": {
     "label-name": "Name",
@@ -36,6 +36,8 @@
     "label-email": "Email",
     "label-message": "Message",
     "submit": "Submit",
+    "submiting": "Sending...",
+    "submitted": "Sent!",
     "errors": {
       "required": "{field} is required",
       "email": "Please enter a valid email address",

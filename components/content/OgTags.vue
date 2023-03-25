@@ -17,8 +17,7 @@ useServerSeoMeta({
   ogType: 'website',
   ogSiteName: 'ET - Ear Trainer',
   ogUrl: 'https://eliaschenker.com/ET_App',
-  //TODO
-  ogImage: '',
-  ogImageAlt: ''
+  ogImage: 'https://eliaschenker.com/ET_App/og_image.png',
+  ogImageAlt: 'ET - Ear Trainer'
 });
 </script>

@@ -30,9 +30,10 @@
     </base-form-control>
     <base-button
       icon="send"
+      :disabled="submitDisabled"
       @click="submit"
     >
-      {{ $t('feedback.submit') }}
+      {{ submitState }}
     </base-button>
   </div>
 </template>
@@ -71,8 +72,32 @@ const form = reactive(defaultForm);
 
 const v$ = useVuelidate(rules, form);
 
+
+enum FeedbackState {
+  Ready,
+  Sending,
+  Sent
+}
+
+const feedbackState = ref(FeedbackState.Ready);
+
+const submitState = computed(() => {
+  switch(feedbackState.value) {
+    case FeedbackState.Ready:
+      return t('feedback.submit');
+    case FeedbackState.Sending:
+      return t('feedback.submitting');
+    case FeedbackState.Sent:
+      return t('feedback.submitted');
+  }
+});
+
+const submitDisabled = computed(() => feedbackState.value !== FeedbackState.Ready);
+
 const submit = async () => {
-  await v$.value.$validate();
+  if(!(await v$.value.$validate())) {
+    return;
+  }
 
   const formData = new FormData();
   formData.append('subject', form.subject);
@@ -80,7 +105,14 @@ const submit = async () => {
   formData.append('email', form.email);
   formData.append('message', form.message);
 
-  fetch('/feedback.php', {method: 'POST', body: formData});
+  feedbackState.value = FeedbackState.Sending;
+  try {
+    fetch('/feedback.php', {method: 'POST', body: formData});
+  } catch(error) {
+    console.log('Error while submitting feedback', error);
+  } finally {
+    feedbackState.value = FeedbackState.Sent;
+  }
 };
 </script>
 <style lang="scss" scoped>

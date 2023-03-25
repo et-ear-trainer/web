@@ -35,16 +35,19 @@ export default defineNuxtConfig({
       locales: [
           {
             code: 'en',
-            file: 'en.json'
+            file: 'en.json',
+            iso: 'en-US'
           },
           {
             code: 'de',
-            file: 'de.json'
+            file: 'de.json',
+            iso: 'de-DE'
           }
         ],
         lazy: true,
         langDir: 'lang',
         defaultLocale: 'en',
-        strategy: 'no_prefix'
+        strategy: 'prefix_except_default',
+        baseUrl: 'https://www.eliaschenker.com/ET_App'
     }
 });
