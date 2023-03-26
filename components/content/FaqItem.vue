@@ -14,7 +14,6 @@
           class="icon"
           :class="{open}"
         />
-        <span class="h-full">{{ faqNumber }}.&nbsp;</span>
         <slot name="title" />
       </div>
       <div
@@ -35,7 +34,7 @@
 
   const faq = ref<HTMLElement>();
 
-  const faqNumber = computed(() => {
+  /*const faqNumber = computed(() => {
     if (process.client) {
       if (faq.value) {
         const children = [].slice.call( document.getElementsByClassName('faq')) as HTMLElement[];
@@ -43,7 +42,7 @@
       }
     }
     return 0;
-  });
+  });*/
 </script>
 <style lang="scss" scoped>
 .container {

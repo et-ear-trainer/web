@@ -1,15 +1,15 @@
 on: 
   push:
     branches:
-      - develop
-name: Deploy dev
+      - main
+name: Deploy production
 jobs:
-  dev-web-deploy:
+  web-deploy:
     name: Deploy
     runs-on: ubuntu-latest
 
     env:
-      BASE_URL: ${{ secrets.DEV_BASE_URL }}
+      BASE_URL: ${{ secrets.BASE_URL }}
 
     steps:
     - name: Get latest code
@@ -30,7 +30,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: eliaschenker.com
-        username: ${{ secrets.DEV_FTP_USERNAME }}
-        password: ${{ secrets.DEV_FTP_PASSWORD }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /
         local-dir: ./dist/

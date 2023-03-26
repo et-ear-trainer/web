@@ -29,8 +29,13 @@ export default defineNuxtConfig({
         '@nuxt/content'
     ],
     css: [
-        '~/assets/scss/index.scss'
+        '~/assets/scss/index.scss',
     ],
+    runtimeConfig: {
+      public: {
+        baseURL: process.env.BASE_URL,
+      }
+    },
     i18n: {
       locales: [
           {
@@ -48,6 +53,6 @@ export default defineNuxtConfig({
         langDir: 'lang',
         defaultLocale: 'en',
         strategy: 'prefix_except_default',
-        baseUrl: 'https://www.eliaschenker.com/ET_App'
+        baseUrl: process.env.BASE_URL
     }
 });

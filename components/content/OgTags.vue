@@ -1,3 +1,4 @@
+<template><div /></template>
 <script lang="ts" setup>
 const props = defineProps<{
   title: string,
@@ -5,6 +6,8 @@ const props = defineProps<{
 }>();
 
 const route = useRoute();
+
+const runtimeConfig = useRuntimeConfig();
 
 useServerSeoMeta({
   title: props.title,
@@ -16,8 +19,8 @@ useServerSeoMeta({
   twitterCard: 'summary_large_image',
   ogType: 'website',
   ogSiteName: 'ET - Ear Trainer',
-  ogUrl: 'https://eliaschenker.com/ET_App',
-  ogImage: 'https://eliaschenker.com/ET_App/og_image.png',
+  ogUrl: runtimeConfig.public.baseURL,
+  ogImage: `${runtimeConfig.public.baseURL}/og_image.png`,
   ogImageAlt: 'ET - Ear Trainer'
 });
 </script>
