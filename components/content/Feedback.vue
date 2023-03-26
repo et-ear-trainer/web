@@ -94,6 +94,8 @@ const submitState = computed(() => {
 
 const submitDisabled = computed(() => feedbackState.value !== FeedbackState.Ready);
 
+const runtimeConfig = useRuntimeConfig();
+
 const submit = async () => {
   if(!(await v$.value.$validate())) {
     return;
@@ -107,7 +109,7 @@ const submit = async () => {
 
   feedbackState.value = FeedbackState.Sending;
   try {
-    fetch('/feedback.php', {method: 'POST', body: formData});
+    fetch(`${runtimeConfig.public.baseURL}/feedback.php`, {method: 'POST', body: formData});
   } catch(error) {
     console.log('Error while submitting feedback', error);
   } finally {
