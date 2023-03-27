@@ -265,7 +265,7 @@ Yes, the app is optimized for iPads and can also be used in landscape mode; due 
 
 **Inside Limmattal, Thomas Pfann, November 2022 - Portrait about Daniel and Elia Schenker (german)**
 
-::content-button{to="press/Portrait-Dani-Elia-Inside-Limmattal-Nov2022.pdf" icon="feed"}
+::content-button{to="/ET_App/press/Portrait-Dani-Elia-Inside-Limmattal-Nov2022.pdf" icon="feed"}
 Read the article
 ::
 

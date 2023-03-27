@@ -9,7 +9,9 @@ export const useImages = () => {
   const { $i18n } = useNuxtApp();
 
   const amountImages = 8;
-  const basePath = 'img/app/';
+  const runtimeConfig = useRuntimeConfig();
+
+  const basePath = `${runtimeConfig.public.baseURL}/img/app/`;
 
   const images = computed(() => {
     const result: Image[] = [];

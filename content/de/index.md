@@ -267,7 +267,7 @@ Ja, die App ist für iPads optimiert und lässt sich auch im Querformat verwende
 
 **Inside Limmattal, Thomas Pfann, November 2022 - Portrait über Daniel and Elia Schenker**
 
-::content-button{to="press/Portrait-Dani-Elia-Inside-Limmattal-Nov2022.pdf" icon="feed"}
+::content-button{to="/ET_App/press/Portrait-Dani-Elia-Inside-Limmattal-Nov2022.pdf" icon="feed"}
 Zum Artikel
 ::
 
