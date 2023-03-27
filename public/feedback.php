@@ -1,12 +1,12 @@
 <?php
-    if(isset($_POST["feedbacktitle"])
-    && isset($_POST["feedbackname"])
-    && isset($_POST["feedbackemail"])
-    && isset($_POST["feedbackmessage"])) {
-        $title = $_POST["feedbacktitle"];
-        $name = $_POST["feedbackname"];
-        $email = $_POST["feedbackemail"];
-        $message = $_POST["feedbackmessage"];
+    if(isset($_POST["subject"])
+    && isset($_POST["name"])
+    && isset($_POST["email"])
+    && isset($_POST["message"])) {
+        $title = $_POST["subject"];
+        $name = $_POST["name"];
+        $email = $_POST["email"];
+        $message = $_POST["message"];
 
         $to      = 'mail@danielschenker.ch';
         $subject = $title;

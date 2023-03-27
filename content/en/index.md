@@ -34,6 +34,7 @@ The app also offers an easy way to backup statistics and settings and transfer t
 - Imitating / singing notes of the first five notes of a major or minor scale; suitable for younger students or amateurs
 - Diatonic imitation: reproduction of notes in a particular key, vocally or on an instrument
 - Atonal imitation: improvement of relative or referential hearing
+- Sequences of 2-6 random tones
 - Intervals
 - Resolution game: technique for the improvement of downward interval singing or playing
 - Bass imitation exercises: double bass notes and root notes of various chords are to be reproduced vocally or on an instrument, a central skill that is often underdeveloped
@@ -173,20 +174,20 @@ This method helps to develop the referential hearing and improves the ability to
 2\. Intervals (horizontal hearing):
 - Each new note is derived from the last note by interval detection.
 
-If the option "Exact octaves" is switched off, all notes can be played or sung within one octave.:
+If the option "Exact octaves" is switched off, all notes can be played or sung within one octave.
 ::
 
 ::faq-item
 #title
-10\. Can the app help me to get absolute pitch?
+10\. Can the app help me to get perfect pitch?
 #text
-Yes and no. Perfect pitch is often overestimated and not a necessary aspect of what constitutes good hearing. In practice, sound memory and good referential hearing are more important: What degree of a scale am I on? Where are the steps in a minor or in the chromatic scale? The app exercises _Imitation Diatonic / Atonal, Resolution Game, Intervals, Sandbox Scales_ may help improve relative hearing.
+Yes and no. Perfect pitch is often overestimated and not a necessary aspect of what constitutes good hearing. In practice, sound memory and good referential hearing are more important (and can be improved by practicing!): What degree of a scale am I on? Where are the steps in a minor or in the chromatic scale? The app exercises _Imitation Diatonic / Atonal, Resolution Game, Intervals, Sandbox Scales_ may help improve relative hearing.
 It is not yet entirely clear whether absolute pitch is innate or acquired in infancy. However, you can train the ability to remember a specific, absolute reference tone. For example, singers might choose a middle "C", guitar players an "E" or "A" (string tuning), trumpets a "Bb" concert. The associated haptics (chord fingering, piano voicing, valve position) can help recalling the tone. Try to reproduce the reference tone often and try to keep it in your ear for as long as possible. - If the option "Easy" is set, the app plays such a reference tone before starting most active exercises.
 ::
 
 ::faq-item
 #title
-11\. I am looking for assistance with mouthpiece buzzing - can the app help here?
+11\. I play trumpet and am looking for assistance with mouthpiece buzzing - can the app help here?
 #text
 Yes. Since the app only recognizes reasonably consistent and well-intonated notes, it can help improve intonation and airflow when buzzing. Two exercises:
 1\. Simple exercise, range: 1 octave.
@@ -223,7 +224,7 @@ That is correct. For the 12 major and minor triads over bass, the app only disti
 #title
 15\. I have a new phone and want to transfer my scores as well as settings - is that possible?
 #text
-Yes, this is very easy. Using the backup function (_settings_), high scores, app settings and statistics including chord selection settings can be downloaded to another device. The data (only app-internal data, no user details) is stored in the cloud. Upon successful storage (the cell phone must be connected to the Internet), a 10-digit, copyable code is shown. With this code, the data can be downloaded to the new phone (_settings, restore from backup_).
+Yes, this is very easy. Using the backup function in _settings_, high scores, app settings and statistics including chord selection settings can be downloaded to another device. The data (only app-internal data, no user details) is stored in the cloud. Upon successful storage (the cell phone must be connected to the Internet), a 10-digit, copyable code is shown. With this code, the data can be downloaded to the new phone: go to _settings_, then choose _restore from backup_.
 ::
 
 ::faq-item

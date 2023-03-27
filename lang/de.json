@@ -5,13 +5,50 @@
     "faq": "FAQ",
     "press": "Presse",
     "feedback": "Feedback",
-    "about": "Über uns"
+    "about": "Über"
   },
   "lang_keys": {
     "en": "English",
     "de": "German"
   },
   "header": {
-    "scroll-info": "Scroll to learn more"
+    "new-info": "Jetzt auch mit Kadenzen!",
+    "scroll-info": "Scrollen für mehr Informationen"
+  },
+  "stats": {
+    "downloads": "Downloads",
+    "exercises": "Übungen",
+    "achievements": "Errungenschaften"
+  },
+  "images": {
+    "1_alt": "Promotionsbild Mikrofon und Toneingabe",
+    "2_alt": "Promotionsbild 30 Übungen unnd 190 Errungenschaften",
+    "3_alt": "Promotionsbild Detaillierte Lernkontrollen: Individualisierbare Übungen",
+    "4_alt": "Promotionsbild Aktive Übungen",
+    "5_alt": "Promotionsbild Vierklänte erkennen",
+    "6_alt": "Promotionsbild Hilfstexte",
+    "7_alt": "Promotionsbild Übersicht Errungenschaften",
+    "8_alt": "Promotionsbild Online Rangliste"
+  },
+  "feedback": {
+    "label-name": "Name",
+    "label-subject": "Betreff",
+    "label-email": "Email-Adresse",
+    "label-message": "Nachricht",
+    "submit": "Abschicken",
+    "submiting": "Senden...",
+    "submitted": "Gesendet!",
+    "errors": {
+      "required": "{field} fehlt..",
+      "email": "Mailadresse ungültig..",
+      "min-length": "Die Nachricht muss mindestens {characters} Zeichen enthalten",
+      "max-length": "Die Nachricht darf höchstens {characters} Zeichen enthalten"
+    }
+  },
+  "footer": {
+    "send-email": "Email schicken",
+    "privacy-policy-website": "Privacy Policy (Website)",
+    "privacy-policy-app": "Privacy Policy (App)",
+    "imprint": "Impressum"
   }
 }
