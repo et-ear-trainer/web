@@ -31,7 +31,7 @@
     setLocale(code);
     setTimeout(() => {
       window.location.reload(true);
-    }, 100);
+    }, 300);
   };
 
   const navbarItems = computed(() => [
