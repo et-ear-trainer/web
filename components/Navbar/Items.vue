@@ -12,7 +12,7 @@
     :key="item.code"
     class="item"
     :class="{'language-selected': item.code === locale}"
-    :to="switchLocalePath(item.code)"
+    @click="setLocale(item.code)"
   >
     {{ $t(`lang_keys.${item.code}`) }}
   </nuxt-link>
@@ -22,7 +22,6 @@
 
   const { locale, locales, setLocale } = useI18n();
   const localePath = useLocalePath();
-  const switchLocalePath = useSwitchLocalePath();
   
   const availableLocales = computed(() => {
     return locales.value as LocaleObject[];
