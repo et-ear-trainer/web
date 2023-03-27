@@ -12,7 +12,7 @@
     :key="item.code"
     class="item"
     :class="{'language-selected': item.code === locale}"
-    @click="setLocale(item.code)"
+    @click="changeLocale(item.code)"
   >
     {{ $t(`lang_keys.${item.code}`) }}
   </nuxt-link>
@@ -26,6 +26,11 @@
   const availableLocales = computed(() => {
     return locales.value as LocaleObject[];
   });
+  
+  const changeLocale = (code: string) => {
+    setLocale(code);
+    window.location.reload(true);
+  };
 
   const navbarItems = computed(() => [
     'description',
