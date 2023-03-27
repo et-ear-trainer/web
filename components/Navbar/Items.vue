@@ -29,7 +29,9 @@
   
   const changeLocale = (code: string) => {
     setLocale(code);
-    window.location.reload(true);
+    setTimeout(() => {
+      window.location.reload(true);
+    }, 100);
   };
 
   const navbarItems = computed(() => [
