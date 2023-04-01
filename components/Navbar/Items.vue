@@ -7,31 +7,32 @@
   >
     {{ $t(`nav.${item}`) }}
   </nuxt-link>
-  <nuxt-link
+  <a
     v-for="item in availableLocales"
     :key="item.code"
     class="item"
     :class="{'language-selected': item.code === locale}"
-    @click="changeLocale(item.code)"
+    :href="getLocaleHref(item.code)"
   >
     {{ $t(`lang_keys.${item.code}`) }}
-  </nuxt-link>
+  </a>
 </template>
 <script lang="ts" setup>
-  import { LocaleObject } from 'vue-i18n-routing';
+  import { LocaleObject, switchLocalePath } from 'vue-i18n-routing';
 
   const { locale, locales, setLocale } = useI18n();
   const localePath = useLocalePath();
+  const switchLocalePath = useSwitchLocalePath();
   
   const availableLocales = computed(() => {
     return locales.value as LocaleObject[];
   });
-  
-  const changeLocale = (code: string) => {
-    setLocale(code);
-    setTimeout(() => {
-      window.location.reload(true);
-    }, 300);
+
+  const runtimeConfig = useRuntimeConfig();
+  const route = useRoute();
+
+  const getLocaleHref = (code: string) =>  {
+    return `${runtimeConfig.public.baseURL}${switchLocalePath(code)}`;
   };
 
   const navbarItems = computed(() => [
