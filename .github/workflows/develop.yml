@@ -24,7 +24,6 @@ jobs:
       run: |
         yarn install
         yarn build
-        yarn generate
     
     - name: Deploy over FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
@@ -33,4 +32,4 @@ jobs:
         username: ${{ secrets.DEV_FTP_USERNAME }}
         password: ${{ secrets.DEV_FTP_PASSWORD }}
         server-dir: /
-        local-dir: ./dist/
+        local-dir: ./.output/public
