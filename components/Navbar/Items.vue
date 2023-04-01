@@ -2,7 +2,7 @@
   <nuxt-link
     v-for="item in navbarItems"
     :key="item"
-    :to="{hash: `#${item}`}"
+    :to="localePath({hash: `#${item}`})"
     class="item"
   >
     {{ $t(`nav.${item}`) }}
@@ -21,6 +21,7 @@
   import { LocaleObject } from 'vue-i18n-routing';
 
   const { locale, locales, setLocale } = useI18n();
+  const localePath = useLocalePath();
   
   const availableLocales = computed(() => {
     return locales.value as LocaleObject[];
@@ -28,6 +29,9 @@
   
   const changeLocale = (code: string) => {
     setLocale(code);
+    setTimeout(() => {
+      window.location.reload(true);
+    }, 300);
   };
 
   const navbarItems = computed(() => [
