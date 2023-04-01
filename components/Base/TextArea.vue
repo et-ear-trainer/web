@@ -1,9 +1,13 @@
 <template>
-  <textarea v-model="value" />
+  <textarea
+    v-model="value"
+    :label="label"
+  />
 </template>
 <script lang="ts" setup>
 const props = defineProps<{
-  modelValue: string
+  modelValue: string,
+  label?: string
 }>();
 
 

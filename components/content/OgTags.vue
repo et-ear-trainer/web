@@ -5,8 +5,6 @@ const props = defineProps<{
   description: string
 }>();
 
-const route = useRoute();
-
 const runtimeConfig = useRuntimeConfig();
 
 useServerSeoMeta({

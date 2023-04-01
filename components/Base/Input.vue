@@ -1,10 +1,22 @@
 <template>
-  <input v-model="value">
+  <input
+    v-model="value"
+    :type="type"
+    :label="label"
+  >
 </template>
 <script lang="ts" setup>
-const props = defineProps<{
-  modelValue: string
-}>();
+const props = withDefaults(
+  defineProps<{
+    modelValue: string
+    type?: string
+    label?: string
+  }>(),
+  {
+    type: 'text',
+    label: 'Input'
+  }
+);
 
 
 const emit = defineEmits([

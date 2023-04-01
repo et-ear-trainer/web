@@ -5,28 +5,41 @@
       required
       :errors="v$.name.$errors"
     >
-      <base-input v-model="form.name" />
+      <base-input
+        v-model="form.name"
+        :label="$t('feedback.label-name')"
+      />
     </base-form-control>
     <base-form-control
       :label="$t('feedback.label-subject')"
       required
       :errors="v$.subject.$errors"
     >
-      <base-input v-model="form.subject" />
+      <base-input
+        v-model="form.subject"
+        :label="$t('feedback.label-subject')"
+      />
     </base-form-control>
     <base-form-control
       :label="$t('feedback.label-email')"
       required
       :errors="v$.email.$errors"
     >
-      <base-input v-model="form.email" />
+      <base-input
+        v-model="form.email"
+        :label="$t('feedback.label-email')"
+        type="email"
+      />
     </base-form-control>
     <base-form-control
       :label="$t('feedback.label-message')"
       required
       :errors="v$.message.$errors"
     >
-      <base-text-area v-model="form.message" />
+      <base-text-area
+        v-model="form.message"
+        :label="$t('feedback.label-message')"
+      />
     </base-form-control>
     <base-button
       icon="send"
@@ -97,6 +110,10 @@ const submitDisabled = computed(() => feedbackState.value !== FeedbackState.Read
 const runtimeConfig = useRuntimeConfig();
 
 const submit = async () => {
+  if (feedbackState.value !== FeedbackState.Ready) {
+    return;
+  }
+  
   if(!(await v$.value.$validate())) {
     return;
   }

@@ -3,6 +3,7 @@
     :to="to"
     target="_blank"
     class="button"
+    :disabled="disabled"
   >
     <base-icon
       v-if="icon"
@@ -18,6 +19,7 @@ import { RouteLocationRaw } from 'vue-router';
 defineProps<{
   icon?: string,
   to?: RouteLocationRaw
+  disabled?: boolean
 }>();
 </script>
 <style lang="scss" scoped>

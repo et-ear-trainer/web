@@ -10,6 +10,8 @@
         <img
           class="logo"
           src="~/assets/img/et-logo.png"
+          alt="ET - Ear Trainer Logo"
+          @click="scrollToTop()"
         >
       </div>
       <div
@@ -43,6 +45,12 @@
   const { arrivedState } = useScroll(window);
 
   const menuOpen = ref(false);
+
+  const scrollToTop = () => {
+    if (process.client) {
+      window.scrollTo(0, 0);
+    }
+  };
 </script>
 <style lang="scss" scoped>
   .navbar-wrapper {
@@ -99,7 +107,7 @@
 
       .left {
         .logo {
-          @apply h-10 mx-3;
+          @apply h-10 mx-3 cursor-pointer;
         }
       }
 

@@ -52,7 +52,7 @@ export default defineNuxtConfig({
         lazy: true,
         langDir: 'lang',
         defaultLocale: 'en',
-        strategy: 'prefix_except_default',
+        strategy: 'no_prefix',
         baseUrl: process.env.BASE_URL
     }
 });

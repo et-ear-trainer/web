@@ -320,7 +320,7 @@ Link einem Interview der ETH Zurich
 
 ### Elia Schenker
 
-Elia Schenker besucht seit 2019 die Informatikmittelschule IMS an der Kantonsschule Hottingen in Zürich. 
+Zurzeit absolviert Elia Schenker eine vierjährige Ausbildung zum Informatiker EFZ, die ein einjähriges Praktikum bei der Zürcher Informatikfirma Digio AG beinhaltet.
 
 ::content-link{to=https://www.eliaschenker.com}
 Link zur Website

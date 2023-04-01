@@ -317,7 +317,7 @@ Link to an Interview from ETH Zurich
 <br>
 
 ### Elia Schenker
-Since 2019, Elia Schenker attends the Informatikmittelschule IMS in Zurich Hottingen. 
+Currently, Elia Schenker is attending a 4-year education to become a Informatiker EFZ, which includes a one-year internship at the Zurich-based IT company Digio AG.
 
 ::content-link{to=https://www.eliaschenker.com}
 Link to Website
