@@ -15,10 +15,7 @@ description: Wieso noch eine weitere Gehörbildungs-App? Diese ist anders!
 
 :divider
 
-::content-section{section-anchor="description"}
-## ET - Ear Trainer
-<br>
-
+::content-section{section-anchor="description" section-title="ET - Ear Trainer"}
 **Wieso noch eine weitere Gehörbildungs-App? Diese ist anders!**
 
 Beim Spielen von Jazz, Pop und improvisierter Musik muss man Klänge schnell erfassen, schnell umsetzen. Die App fokussiert auf Mikrofoneingabe und enthält Übungen für das aktive und passive Hören . Ein Voicing Generator sorgt dafür, dass in der Jazz-Praxis übliche Piano-Voicings verwendet werden. Die App bietet Übungen für spezifische, häufige Hörprobleme, wie beispielsweise dem Grundton-Hören.
@@ -63,9 +60,7 @@ Je nach Einstellung können die Akkorde auch arpeggiert gespielt werden.
 - Blechbläser:innen: Kontrolle bei Mundstück-Einspielübungen (Buzzing)
 ::
 
-::content-section{section-anchor="media"}
-## Videos
-<br>
+::content-section{section-anchor="media" section-title="Videos"}
 
 ::app-video-wrapper
 
@@ -85,10 +80,7 @@ Je nach Einstellung können die Akkorde auch arpeggiert gespielt werden.
 
 ::
 
-::content-section{section-anchor="faq"}
-## FAQ - Häufig gestellte Fragen
-<br>
-
+::content-section{section-anchor="faq" section-title="FAQ - Häufig gestellte Fragen"}
 ::faq-item
 #title
 1\. Wieso noch eine Gehörbildungs-App?
@@ -261,10 +253,7 @@ Ja, die App ist für iPads optimiert und lässt sich auch im Querformat verwende
 
 ::
 
-::content-section{section-anchor="press"}
-## Presse
-<br>
-
+::content-section{section-anchor="press" section-title="Presse"}
 **Inside Limmattal, Thomas Pfann, November 2022 - Portrait über Daniel and Elia Schenker**
 
 ::content-button{to="/ET_App/press/Portrait-Dani-Elia-Inside-Limmattal-Nov2022.pdf" icon="feed"}
@@ -289,21 +278,12 @@ Zum Artikel
 
 ::
 
-::content-section{section-anchor="feedback"}
-<br>
-
-## Feedback
-
+::content-section{section-anchor="feedback" section-title="Feedback"}
 :feedback
 
 ::
 
-::content-section{section-anchor="about"}
-<br>
-
-## Über uns
-<br>
-
+::content-section{section-anchor="about" section-title="Über uns"}
 ### Daniel Schenker
 Daniel Schenker begann als Informatiker, ist seit Mitte der 90er Jahre Musiker und unterrichtet an der Zürcher Hochschule der Künste ZHdK Hauptfach Trompete und Gehörbildung.
 

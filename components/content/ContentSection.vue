@@ -1,15 +1,18 @@
 <template>
   <div class="wrapper">
-    <a
+    <h2
       :id="sectionAnchor"
       class="anchor"
-    />
+    >
+      {{ sectionTitle }}
+    </h2>
     <slot />
   </div>
 </template>
 <script lang="ts" setup>
   defineProps<{
     sectionAnchor: string
+    sectionTitle:string
   }>();
 </script>
 <style lang="scss" scoped>
@@ -23,7 +26,15 @@
       text-justify
     ;
   }
+
   .anchor {
-    @apply block relative -top-20 invisible;
+    @apply mb-7;
+    
+    &:before {
+      content: "";
+      display: block;
+      height: 100px;
+      margin: -100px 0 0;
+    }
   }
 </style>

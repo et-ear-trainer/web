@@ -15,10 +15,7 @@ description: Yet another ear-training app? Well, this one is different!
 
 :divider
 
-::content-section{section-anchor="description"}
-## ET - Ear Trainer
-<br>
-
+::content-section{section-anchor="description" section-title="ET - Ear Trainer"}
 **Yet another ear-training app? Well, this one is different!**
 
 Playing jazz, pop and improvised music means being able to quickly recognize and replay what you hear. The app focuses on microphone input and includes active and passive hearing. An integrated voicing generator ensures that piano voicings common in jazz practice are used. The app provides exercises for specific hearing problems, such as identifying root tones. Although this app began as an ear-training tool for students of jazz and pop at the Zurich University of the Arts (ZHdK), it is also intended for musicians playing in other styles, and at all levels. It was developed by Swiss IT specialist and jazz trumpeter Daniel Schenker, professor at ZHdK, in collaboration with his son Elia (19, Informatikmittelschule Hottingen in Zurich).
@@ -62,9 +59,7 @@ Depending on the setting, the chords can also be played arpeggiated.
 - Brass players: control in mouthpiece exercises (buzzing)
 ::
 
-::content-section{section-anchor="media"}
-## Videos
-<br>
+::content-section{section-anchor="media" section-title="Videos"}
 
 ::app-video-wrapper
 
@@ -84,10 +79,7 @@ Depending on the setting, the chords can also be played arpeggiated.
 
 ::
 
-::content-section{section-anchor="faq"}
-## FAQ - Frequently Asked Questions
-<br>
-
+::content-section{section-anchor="faq" section-title="FAQ - Frequently Asked Questions"}
 ::faq-item
 #title
 1\. Why yet another ear training app?
@@ -259,10 +251,7 @@ Yes, the app is optimized for iPads and can also be used in landscape mode; due 
 
 ::
 
-::content-section{section-anchor="press"}
-## Press
-<br>
-
+::content-section{section-anchor="press" section-title="Press"}
 **Inside Limmattal, Thomas Pfann, November 2022 - Portrait about Daniel and Elia Schenker (german)**
 
 ::content-button{to="/ET_App/press/Portrait-Dani-Elia-Inside-Limmattal-Nov2022.pdf" icon="feed"}
@@ -287,20 +276,13 @@ Read the article
 
 ::
 
-::content-section{section-anchor="feedback"}
-<br>
-
-## Feedback
+::content-section{section-anchor="feedback" section-title="Feedback"}
 
 :feedback
 
 ::
 
-::content-section{section-anchor="about"}
-<br>
-
-## About
-<br>
+::content-section{section-anchor="about" section-title="About"}
 
 ### Daniel Schenker
 Daniel Schenker started his career as a IT specialist. Since 1995, he works as a musician. He teaches trumpet and ear training at Zurich University of the Arts ZHdK.
