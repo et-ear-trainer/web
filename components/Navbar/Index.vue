@@ -192,6 +192,7 @@
     .to-top {
       @apply
         text-gray-600
+        bg-white
         cursor-pointer
 
         px-1
