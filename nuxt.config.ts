@@ -8,6 +8,7 @@ export default defineNuxtConfig({
           meta: [
             { name: 'description', content: 'Wieso noch eine weitere Gehörbildungs-App? Diese ist anders!' },
             { name: 'keywords', content: 'et, et - ear trainer, ear trainer, ear training, music theory, music' },
+            { name: 'apple-itunes-app', content: 'app-id=1580200913'},
             { name: 'msapplication-TileColor', content: '#da532' },
             { name: 'theme-color', content: '#da532' }
           ],

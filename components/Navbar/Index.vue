@@ -38,6 +38,16 @@
       <NavbarItems />
     </div>
     <div class="navbar-border" />
+    <div
+      class="to-top"
+      :class="{'arrived-top': arrivedState.top}"
+      @click="scrollToTop()"
+    >
+      <base-icon
+        name="expand_less"
+        :size="48"
+      />
+    </div>
   </div>
 </template>
 <script lang=ts setup>
@@ -176,6 +186,32 @@
       }
       100% {
         background-position: 0% 50%;
+      }
+    }
+
+    .to-top {
+      @apply
+        text-gray-600
+        cursor-pointer
+
+        px-1
+        py-[2px]
+        w-min
+        h-min
+
+        fixed
+        bottom-5
+        right-5
+        border-gray-400
+        border-2
+
+        opacity-90
+        duration-300
+        rounded-xl
+      ;
+
+      &.arrived-top {
+        @apply opacity-0;
       }
     }
   }

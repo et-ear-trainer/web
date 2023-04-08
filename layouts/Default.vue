@@ -42,4 +42,16 @@
     identifierAttribute: 'id',
     addSeoAttributes: true
   });
+
+  onBeforeMount(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const target = document.querySelector(hash);
+      if (target) {
+        setTimeout(() => {
+          target.scrollIntoView({ block: 'start' });
+        }, 1000);
+      }
+    }
+  });
 </script>

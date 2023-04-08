@@ -82,7 +82,7 @@ Depending on the setting, the chords can also be played arpeggiated.
 ::content-section{section-anchor="faq" section-title="FAQ - Frequently Asked Questions"}
 ::faq-item
 #title
-1\. Why yet another ear training app?
+Why yet another ear training app?
 #text
 Well, this app is different: It focuses on microphone input and includes active and passive hearing. An integrated voicing generator ensures that piano voicings common in jazz practice are used. The app provides exercises for specific hearing problems, such as identifying root tones.
 This app began as an ear-training tool for students of jazz and pop at the Zurich University of the Arts (ZHdK) and is used in the two-year Ear Training course.
@@ -90,7 +90,7 @@ This app began as an ear-training tool for students of jazz and pop at the Zuric
 
 ::faq-item
 #title
-2\. Why ear training at all?
+Why ear training at all?
 #text
 According to American jazz trumpeter Tim Hagans, "Ear training is the overlooked activity with music." (July 2021).
 Especially in jazz, in improvised music and interplay, the ability to quickly grasp and realize sounds is particularly important: How do I accompany a brass solo as a pianist, which voicings do I use? What do I sing in a cadenza over a certain chord played by the guitar? The goal is to realize music not by reading notes, but by what is heard internally, i.e. the ability to recognize, classify and realize conventional as well as rarely heard sounds as quickly as possible. In the playing situation I have no time to "calculate", I must be able to rely on my reflexes. The training of these reflexes needs a multiple of the time I need to understand the corresponding theory. The ability to self-reflect also plays a big role in ear training: How far does my intuition go? Where are the limits of my hearing skills? Which exercises can I use to develop my ears?
@@ -98,14 +98,14 @@ Especially in jazz, in improvised music and interplay, the ability to quickly gr
 
 ::faq-item
 #title
-3\. What is meant by active and passive hearing? Why the distinction?
+What is meant by active and passive hearing? Why the distinction?
 #text
 Active hearing means reproducing what is heard on the instrument or with the voice, while passive hearing means identifying musical events such as scales, chords, tensions, and so on. In improvised music and interplay both abilities are necessary. The distinction allows for a subdivision of the methods.
 ::
 
 ::faq-item
 #title
-4\. The app does not recognize my sound input, although the microphone seems to work and the volume indicator in the microphone window changes
+The app does not recognize my sound input, although the microphone seems to work and the volume indicator in the microphone window changes
 #text
 - Start playing/singing only when the microphone window is displayed
 - The tone is not held long enough: Sing / play the tone with as constant intonation as possible, without vibrato, until the app gives a feedback (1-3 seconds). Pianos: hold key and/or press pedal.
@@ -117,7 +117,7 @@ Active hearing means reproducing what is heard on the instrument or with the voi
 
 ::faq-item
 #title
-5\. The app does not recognize my sound input, the volume indicator in the microphone window (semicircle) shows no change
+The app does not recognize my sound input, the volume indicator in the microphone window (semicircle) shows no change
 #text
 - If you are using AirPods or similar: quit and restart the app
 - Allow microphone access in smartphone settings: iOS: _Settings-Privacy-Microphone_, Android: _ET App-Permissions-Microphone_.
@@ -127,7 +127,7 @@ Active hearing means reproducing what is heard on the instrument or with the voi
 
 ::faq-item
 #title
-6\. The app recognizes my sound input, but displays wrong octaves
+The app recognizes my sound input, but displays wrong octaves
 #text
 In rare cases, the problem can occur. What you can do:
 - Try to change source volume, position and angle to smartphone
@@ -136,14 +136,14 @@ In rare cases, the problem can occur. What you can do:
 
 ::faq-item
 #title
-7\. Does the app work with AirPods or other bluetooth headphones?
+Does the app work with AirPods or other bluetooth headphones?
 #text
 Yes. Note: If AirPods are used on multiple devices, the microphone may stop working properly at times. If so, the volume indicator in the microphone window may not change. Workaround: quit and restart the app. Important: for quality reasons, the app records with the smartphone microphones exclusively.
 ::
 
 ::faq-item
 #title
-8\. The identification of top note positions (triads and four-note chords) is difficult, I just can't get ahead there
+The identification of top note positions (triads and four-note chords) is difficult, I just can't get ahead there
 #text
 True! Although the sound generator plays the top note a bit louder, top note identification is not always easy with non-arpeggiated sounds.
 - Choose a quiet working environment and use good headphones
@@ -153,7 +153,7 @@ True! Although the sound generator plays the top note a bit louder, top note ide
 
 ::faq-item
 #title
-9\. The identification of top note positions (triads and four-note chords) is difficult, I just can't get ahead there
+The identification of top note positions (triads and four-note chords) is difficult, I just can't get ahead there
 #text
 The _Imitation, atonal_ exercise can be practiced in two different ways, it does not require absolute pitch:
 
@@ -171,7 +171,7 @@ If the option "Exact octaves" is switched off, all notes can be played or sung w
 
 ::faq-item
 #title
-10\. Can the app help me to get perfect pitch?
+Can the app help me to get perfect pitch?
 #text
 Yes and no. Perfect pitch is often overestimated and not a necessary aspect of what constitutes good hearing. In practice, sound memory and good referential hearing are more important (and can be improved by practicing!): What degree of a scale am I on? Where are the steps in a minor or in the chromatic scale? The app exercises _Imitation Diatonic / Atonal, Resolution Game, Intervals, Sandbox Scales_ may help improve relative hearing.
 It is not yet entirely clear whether absolute pitch is innate or acquired in infancy. However, you can train the ability to remember a specific, absolute reference tone. For example, singers might choose a middle "C", guitar players an "E" or "A" (string tuning), trumpets a "Bb" concert. The associated haptics (chord fingering, piano voicing, valve position) can help recalling the tone. Try to reproduce the reference tone often and try to keep it in your ear for as long as possible. - If the option "Easy" is set, the app plays such a reference tone before starting most active exercises.
@@ -179,7 +179,7 @@ It is not yet entirely clear whether absolute pitch is innate or acquired in inf
 
 ::faq-item
 #title
-11\. I play trumpet and am looking for assistance with mouthpiece buzzing - can the app help here?
+I play trumpet and am looking for assistance with mouthpiece buzzing - can the app help here?
 #text
 Yes. Since the app only recognizes reasonably consistent and well-intonated notes, it can help improve intonation and airflow when buzzing. Two exercises:
 1\. Simple exercise, range: 1 octave.
@@ -193,49 +193,49 @@ Yes. Since the app only recognizes reasonably consistent and well-intonated note
 
 ::faq-item
 #title
-12\. If I have "Autoplay" on and "Practice Mode" off, non-stop queries are being played, is there no option for a pause?
+If I have "Autoplay" on and "Practice Mode" off, non-stop queries are being played, is there no option for a pause?
 #text
 Yes, there is: Just click on _Statistics_ and eventually return to the exercise. This interruption has no influence on the score (number of correct answers in a row).
 ::
 
 ::faq-item
 #title
-13\. The chords are always played arpgeggiated, is it possible to hear them as a chord?
+The chords are always played arpgeggiated, is it possible to hear them as a chord?
 #text
 Yes: Turn off the "Easy" option on the app's main page.
 ::
 
 ::faq-item
 #title
-14\. I'm practicing major triads over bass tone; I use to replay the chords on my piano and get at D/G; but the app tells me that the correct solution is G/C?
+I'm practicing major triads over bass tone; I use to replay the chords on my piano and get at D/G; but the app tells me that the correct solution is G/C?
 #text
 That is correct. For the 12 major and minor triads over bass, the app only distinguishes the basic types with respect to bass tone C, regardless which note they are effectively played from.
 ::
 
 ::faq-item
 #title
-15\. I have a new phone and want to transfer my scores as well as settings - is that possible?
+I have a new phone and want to transfer my scores as well as settings - is that possible?
 #text
 Yes, this is very easy. Using the backup function in _settings_, high scores, app settings and statistics including chord selection settings can be downloaded to another device. The data (only app-internal data, no user details) is stored in the cloud. Upon successful storage (the cell phone must be connected to the Internet), a 10-digit, copyable code is shown. With this code, the data can be downloaded to the new phone: go to _settings_, then choose _restore from backup_.
 ::
 
 ::faq-item
 #title
-16\. I want to backup my scores and settings somewhere - is that possible?
+I want to backup my scores and settings somewhere - is that possible?
 #text
 Yes, this is very easy. With the _Create backup_ function (_Settings_), high scores, app settings and statistics including chord selection settings can be saved in the cloud. Upon successful saving (the phone must be connected to the internet), a 10-digit, copyable code is shown. This code can be used to restore the data later.
 ::
 
 ::faq-item
 #title
-17\. When I turn my phone 90 degrees, nothing happens - is that correct?
+When I turn my phone 90 degrees, nothing happens - is that correct?
 #text
 That's right, the app uses portrait format for smartphones; iPads also allow landscape format.
 ::
 
 ::faq-item
 #title
-18\. Is the app also available for desktop computers?
+Is the app also available for desktop computers?
 #text
 Yes. The Mac version is available in the App Store, Windows versions can be ordered using the contact form.
 Keyboard shortcuts: Space bar: Start exercise, R: Repeat, S: Shuffle, CMD-F (Mac), F11 (Windows): Toggle full screen mode.
@@ -244,7 +244,7 @@ MIDI input is supported.
 
 ::faq-item
 #title
-19\. Is the app also available for tablets?
+Is the app also available for tablets?
 #text
 Yes, the app is optimized for iPads and can also be used in landscape mode; due to the device size, it is even easier to handle and the audio quality is better.
 ::

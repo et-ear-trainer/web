@@ -14,7 +14,11 @@
           class="icon"
           :class="{open}"
         />
-        <slot name="title" />
+        <span>{{ faqNumber }}.
+          <content-slot
+            :use="$slots.title"
+            unwrap="p"
+          /></span>
       </div>
       <div
         class="text"
@@ -34,7 +38,7 @@
 
   const faq = ref<HTMLElement>();
 
-  /*const faqNumber = computed(() => {
+  const faqNumber = computed(() => {
     if (process.client) {
       if (faq.value) {
         const children = [].slice.call( document.getElementsByClassName('faq')) as HTMLElement[];
@@ -42,7 +46,7 @@
       }
     }
     return 0;
-  });*/
+  });
 </script>
 <style lang="scss" scoped>
 .container {
@@ -50,18 +54,18 @@
 }
 
 .title {
-  @apply font-bold text-lg flex items-center cursor-pointer;
+  @apply font-bold text-lg flex items-center cursor-pointer text-left;
 }
 
 .icon {
-  @apply transition-all;
+  @apply transition-all rotate-180 mb-auto;
   &.open {
-    @apply rotate-180;
+    @apply rotate-0;
   }
 }
 
 .text {
-  @apply ml-9 max-h-0 overflow-hidden transition-all duration-200;
+  @apply ml-9 max-h-0 overflow-hidden transition-all duration-200 text-left;
   
   &.open {
     @apply max-h-[1000px];

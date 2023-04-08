@@ -21,6 +21,12 @@ h3 {
 .wrapper {
   ul {
     list-style-type: '- ';
+    list-style-position: inside;
+
+    li {
+      padding-left: 1em;
+      text-indent: -1em;
+    }
   }
 }
 
