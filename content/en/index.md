@@ -214,6 +214,17 @@ That is correct. For the 12 major and minor triads over bass, the app only disti
 
 ::faq-item
 #title
+I am practicing the classical progressions, but the degree symbols don't tell me anything - are there note examples of the progressions somewhere?
+#text
+The most important abbreviations and explanation of the symbols are given in the info text: click on the round info button in the progression exercises. Find a pdf with the sheet music of the classical progressions here:
+:::content-button{to="/ET_App/KlassischeKadenzenET-EarTrainer.pdf" icon="feed"}
+Classical progressions
+:::
+
+::
+
+::faq-item
+#title
 I have a new phone and want to transfer my scores as well as settings - is that possible?
 #text
 Yes, this is very easy. Using the backup function in _settings_, high scores, app settings and statistics including chord selection settings can be downloaded to another device. The data (only app-internal data, no user details) is stored in the cloud. Upon successful storage (the cell phone must be connected to the Internet), a 10-digit, copyable code is shown. With this code, the data can be downloaded to the new phone: go to _settings_, then choose _restore from backup_.

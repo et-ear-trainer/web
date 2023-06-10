@@ -216,6 +216,16 @@ Das ist richtig. Die App zeigt bei den 12 Dur- und Molldreiklängen über Bass n
 
 ::faq-item
 #title
+Ich übe die klassischen Kadenzen, die Stufenchiffrierungen sagen mir allerdings nicht - gibt es irgendwo Notenbeispiele der Kadenzen?
+#text
+Die wichtigesten Abkürzungen und Erklärungen der Symbole sind im Infotext angegeben: Klicke in den Kadenzübungen oben rechts auf den Info-Button. Die Notenbeispiele der klassischen Kadenzen sind hier zusammengefasst:
+:::content-button{to="/ET_App/KlassischeKadenzenET-EarTrainer.pdf" icon="feed"}
+Klassische Kadenzen
+:::
+::
+
+::faq-item
+#title
 Ich habe ein neues Handy und möchte meine Spielstände sowie Einstellungen übertragen - geht das?
 #text
 Ja, das geht sehr einfach. Mit der Backup-Funktion in den_Einstellungen_ können App-Einstellungen, Highscores und Statistiken inklusive Akkordauswahl-Einstellungen auf ein anderes Gerät geladen werden. Die Daten (nur App-interne Daten, keine Benutzerangaben) werden in der Cloud abgespeichert. Bei erfolgreicher Speicherung (das Handy muss mit dem Internet verbunden sein) wird ein 10-stelliger, kopierbarer Code ausgegeben. Mit diesem Code können die Daten auf das neue Handy geladen werden: gehe zu _Einstellungen_, wähle _Backup herunterladen_.

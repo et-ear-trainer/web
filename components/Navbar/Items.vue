@@ -18,9 +18,9 @@
   </a>
 </template>
 <script lang="ts" setup>
-  import { LocaleObject, switchLocalePath } from 'vue-i18n-routing';
+  import { LocaleObject } from 'vue-i18n-routing';
 
-  const { locale, locales, setLocale } = useI18n();
+  const { locale, locales } = useI18n();
   const localePath = useLocalePath();
   const switchLocalePath = useSwitchLocalePath();
   
@@ -29,7 +29,6 @@
   });
 
   const runtimeConfig = useRuntimeConfig();
-  const route = useRoute();
 
   const getLocaleHref = (code: string) =>  {
     return `${runtimeConfig.public.baseURL}${switchLocalePath(code)}`;
