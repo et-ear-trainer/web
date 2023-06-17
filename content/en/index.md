@@ -49,6 +49,7 @@ The app also offers an easy way to backup statistics and settings and transfer t
 - Identification of scales and modes
 Depending on the setting, the chords can also be played arpeggiated.
 - Chord progressions jazz and pop (diatonic in major and minor, modal interchange, modulations and others)
+- Over 50 classical progressions: Predominant chords, plagal resolutions, top note positions, the Neapolitan sixth chord, suspended fourth sixth chords, Pachelbel progressions, augmented fifth sixth chords, lamento movements, elliptic functions and many more
 <br><br>
 
 **For whom is the app intended?**

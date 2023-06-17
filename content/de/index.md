@@ -50,6 +50,7 @@ Die App bietet auch eine einfache Möglichkeit, Spielstände und Einstellungen z
 - Identifikation von Skalen und Modi
 Je nach Einstellung können die Akkorde auch arpeggiert gespielt werden.
 - Kadenzen Jazz und Pop (diatonisch in Dur und Moll, modaler Austausch, Modulationen und weitere)
+- Über 50 klassische Kadenzen: Zwischendominanten, plagale Kadenzen, Lagen, Neapolitanischer Sextakkord, Vorhalts-Quartsextakkorde, Pachelbel-Kadenzen, übermässiger Quartsextakkorde, Ellipsen, Lamento-Bewegungen und weitere
 <br><br>
 
 **An wen richtet sich die App?**
@@ -216,7 +217,7 @@ Das ist richtig. Die App zeigt bei den 12 Dur- und Molldreiklängen über Bass n
 
 ::faq-item
 #title
-Ich übe die klassischen Kadenzen, die Stufenchiffrierungen sagen mir allerdings nicht - gibt es irgendwo Notenbeispiele der Kadenzen?
+Ich übe die klassischen Kadenzen, die Stufenchiffrierungen sagen mir allerdings nichts - gibt es irgendwo Notenbeispiele der Kadenzen?
 #text
 Die wichtigesten Abkürzungen und Erklärungen der Symbole sind im Infotext angegeben: Klicke in den Kadenzübungen oben rechts auf den Info-Button. Die Notenbeispiele der klassischen Kadenzen sind hier zusammengefasst:
 :::content-button{to="/ET_App/KlassischeKadenzenET-EarTrainer.pdf" icon="feed"}
