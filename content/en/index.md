@@ -18,12 +18,12 @@ description: Yet another ear-training app? Well, this one is different!
 ::content-section{section-anchor="description" section-title="ET - Ear Trainer"}
 **Yet another ear-training app? Well, this one is different!**
 
-Playing jazz, pop and improvised music means being able to quickly recognize and replay what you hear. The app focuses on microphone input and includes active and passive hearing. An integrated voicing generator ensures that piano voicings common in jazz practice are used. The app provides exercises for specific hearing problems, such as identifying root tones. Although this app began as an ear-training tool for students of jazz and pop at the Zurich University of the Arts (ZHdK), it is also intended for musicians playing in other styles, and at all levels. It was developed by Swiss IT specialist and jazz trumpeter Daniel Schenker, professor at ZHdK, in collaboration with his son Elia (19, Informatikmittelschule Hottingen in Zurich).
+Playing jazz, pop and improvised music means being able to quickly recognize and replay what you hear. The app focuses on microphone input and includes active and passive hearing. An integrated voicing generator ensures that piano voicings common in jazz practice are used. The app provides exercises for specific hearing problems, such as identifying root tones. Although this app began as an ear-training tool for students of jazz and pop at the Zurich University of the Arts (ZHdK), it is also intended for musicians playing in other styles, and at all levels. It was developed by Swiss IT specialist and jazz trumpeter Daniel Schenker, professor at ZHdK, in collaboration with his son Elia (19, Informatiker EFZ).
 <br><br>
 
 **How it works**
 
-The app offers a host of ear-training exercises, many of them quite enjoyable, all designed to enhance both active and passive hearing. Active hearing means reproducing what you have heard on an instrument or with your voice, while passive hearing refers to the ability to identify such things as the scales, triads and four-note-chords, tensions and slash chords, on which active hearing is based. One of the features that makes our app so special is the fact that its microphone enables a sort of dialogue between the app and the musician – whether on voice, wind, string instruments, guitar, piano or electric bass. Unlike other apps, this one uses an integrated voicing generator to ensure that the chords played (position, voicing) correspond to the actual performance situation. In addition, the app uses a detailed educational guidance system, which allows users to individually customize the exercises. You can obtain over 190 achievements. Compete with other users and publish your high scores and trophies on the in-app leaderboard!
+The app offers a host of ear-training exercises, many of them quite enjoyable, all designed to enhance both active and passive hearing. Active hearing means reproducing what you have heard on an instrument or with your voice, while passive hearing refers to the ability to identify such things as the scales, triads and four-note-chords, tensions and slash chords, on which active hearing is based. One of the features that makes our app so special is the fact that its microphone enables a sort of dialogue between the app and the musician – whether on voice, wind, string instruments, guitar, piano or electric bass. Unlike other apps, this one uses an integrated voicing generator to ensure that the chords played (position, voicing) correspond to the actual performance situation. In addition, the app uses a detailed educational guidance system, which allows users to individually customize the exercises. You can obtain over 250 achievements. Compete with other users and publish your high scores and trophies on the in-app leaderboard!
 The app also offers an easy way to backup statistics and settings and transfer them to other devices.
 <br><br>
 
@@ -35,7 +35,7 @@ The app also offers an easy way to backup statistics and settings and transfer t
 - Intervals
 - Resolution game: technique for the improvement of downward interval singing or playing
 - Bass imitation exercises: double bass notes and root notes of various chords are to be reproduced vocally or on an instrument, a central skill that is often underdeveloped
-- Tensions imitation exercises: Re-sing or replay chord tensions of a given chord (#9, b13 for example, new in version 1.02)
+- Tensions imitation exercises: Re-sing or replay chord tensions of a given chord (#9, b13 for example)
 - Scales sandbox: imitation practice in tonal spaces from over 40 different scales
 - Tonal memory game
 <br><br>
@@ -49,7 +49,7 @@ The app also offers an easy way to backup statistics and settings and transfer t
 - Identification of scales and modes
 Depending on the setting, the chords can also be played arpeggiated.
 - Chord progressions jazz and pop (diatonic in major and minor, modal interchange, modulations and others)
-- Over 50 classical progressions: Predominant chords, plagal resolutions, top note positions, the Neapolitan sixth chord, suspended fourth sixth chords, Pachelbel progressions, augmented fifth sixth chords, lamento movements, elliptic functions and many more
+- Over 50 classical progressions: Predominant chords, plagal resolutions, top note positions, the Neapolitan sixth chord, suspended fourth sixth chords, Pachelbel progressions, augmented fifth sixth chords, lamento movements, elliptic functions and many more (see :base-link{to="https://www.eliaschenker.com/ET_App/KlassischeKadenzenET-EarTrainer.pdf"}[here])
 <br><br>
 
 **For whom is the app intended?**
@@ -182,7 +182,7 @@ It is not yet entirely clear whether absolute pitch is innate or acquired in inf
 #title
 I play trumpet and am looking for assistance with mouthpiece buzzing - can the app help here?
 #text
-Yes. Since the app only recognizes reasonably consistent and well-intonated notes, it can help improve intonation and airflow when buzzing. Two exercises:
+Yes. Since the app only recognizes reasonably consistent and well-intonated notes, it can help improve intonation and airflow when buzzing. Two exercises: \
 1\. Simple exercise, range: 1 octave.
 - Select _Imitation, major keys_. After the prompt, buzz any root note. The app will play random notes of that scale, which must be imitated. If the "Easy" option is set, the whole ascending scale has to be buzzed first.
 
@@ -311,7 +311,7 @@ Link to an Interview from ETH Zurich
 <br>
 
 ### Elia Schenker
-Currently, Elia Schenker is attending a 4-year education to become a Informatiker EFZ, which includes a one-year internship at the Zurich-based IT company Digio AG.
+Elia Schenker completed his training as an Informatiker EFZ, graduating in 2023 with an IPA with the highest grade. He works at the Zurich-based IT company Digio AG.
 
 ::content-link{to=https://www.eliaschenker.com}
 Link to Website

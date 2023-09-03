@@ -31,6 +31,10 @@ export default defineNuxtConfig({
     css: [
         '~/assets/scss/index.scss',
     ],
+    components: {
+      global: true,
+      dirs: ['~/components']
+    },
     runtimeConfig: {
       public: {
         baseURL: process.env.BASE_URL,

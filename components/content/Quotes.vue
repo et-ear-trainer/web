@@ -67,6 +67,14 @@
     {
       quote: 'Die App hat mir geholfen, mich präzise auf die Gehörbildungsprüfungen vorzubereiten, und es werden genau die Fähigkeiten trainiert, welche im musikalischen Alltag nützlich sind.',
       person: 'Moritz Werner, ZHdK-Student Tonübertragung'
+    },
+    {
+      quote: 'Grossartige App für Gehörbildung: Sehr viele Funktionen, übersichtlich, intuitiv, macht Spass. Kann die App nur wärmstens empfehlen!',
+      person: 'janoschki, App Store'
+    },
+    {
+      quote: 'I’m studying Jazz, and this is the perfect app to improve my skills. Thanks!',
+      person: 'number 1, App Store'
     }
   ];
 

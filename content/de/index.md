@@ -19,12 +19,12 @@ description: Wieso noch eine weitere Gehörbildungs-App? Diese ist anders!
 **Wieso noch eine weitere Gehörbildungs-App? Diese ist anders!**
 
 Beim Spielen von Jazz, Pop und improvisierter Musik muss man Klänge schnell erfassen, schnell umsetzen. Die App fokussiert auf Mikrofoneingabe und enthält Übungen für das aktive und passive Hören . Ein Voicing Generator sorgt dafür, dass in der Jazz-Praxis übliche Piano-Voicings verwendet werden. Die App bietet Übungen für spezifische, häufige Hörprobleme, wie beispielsweise dem Grundton-Hören.
-Die App entstand als Trainingsinstrument für die Studierenden der Jazz- und Popfakultät der Zürcher Hochschule der Künste (ZHdK), sie richtet sich aber auch an Musikerinnen und Musiker anderer Stile und aller Levels. Entwickelt hat sie der Schweizer Informatiker und Jazztrompeter Daniel Schenker, Professor an der ZHdK, zusammen mit seinem Sohn Elia (17 Jahre, Informatikmittelschule Hottingen in Zürich).
+Die App entstand als Trainingsinstrument für die Studierenden der Jazz- und Popfakultät der Zürcher Hochschule der Künste (ZHdK), sie richtet sich aber auch an Musikerinnen und Musiker anderer Stile und aller Levels. Entwickelt hat sie der Schweizer Informatiker und Jazztrompeter Daniel Schenker, Professor an der ZHdK, zusammen mit seinem Sohn Elia (19 Jahre, Informatiker EFZ).
 <br><br>
 
 **Wie die App funktioniert**
 
-Die App bietet zahlreiche nicht zuletzt auch vergnügliche Übungen fürs Training des Gehörs: des aktiven wie des passiven Hörens. Beim "aktiven" Hören ist das Reproduzieren von Gehörtem auf dem Instrument oder mit der Stimme gemeint, beim "passiven" Hören das diesem vorausgehende Identifizieren von Skalen, Dreiklängen, Obertönen (Tensions), Slash-Chords etc. Speziell an unserer App ist u.a., dass dank des Mikrofons gleichsam ein Dialog zwischen App und Musiker:in möglich wird – bei Stimmen, bei Blas- und Streichinstrumenten, Gitarre, Klavier, E-Bass. Leitend ist der Praxisbezug verwendeter Voicings. Die App arbeitet zudem mit einer detaillierten Lernkontrolle – über diese kann die App die Übungen dann auch gezielt individualisieren. Zusätzlich sind über 190 Achievements erreichbar. Miss dich mit anderen Usern und veröffentliche deine Highscores und Trophäen auf dem App-eigenen Leaderboard!
+Die App bietet zahlreiche nicht zuletzt auch vergnügliche Übungen fürs Training des Gehörs: des aktiven wie des passiven Hörens. Beim "aktiven" Hören ist das Reproduzieren von Gehörtem auf dem Instrument oder mit der Stimme gemeint, beim "passiven" Hören das diesem vorausgehende Identifizieren von Skalen, Dreiklängen, Obertönen (Tensions), Slash-Chords etc. Speziell an unserer App ist u.a., dass dank des Mikrofons gleichsam ein Dialog zwischen App und Musiker:in möglich wird – bei Stimmen, bei Blas- und Streichinstrumenten, Gitarre, Klavier, E-Bass. Leitend ist der Praxisbezug verwendeter Voicings. Die App arbeitet zudem mit einer detaillierten Lernkontrolle – über diese kann die App die Übungen dann auch gezielt individualisieren. Zusätzlich sind über 250 Achievements erreichbar. Miss dich mit anderen Usern und veröffentliche deine Highscores und Trophäen auf dem App-eigenen Leaderboard!
 Die App bietet auch eine einfache Möglichkeit, Spielstände und Einstellungen zu sichern und auf andere Geräte zu übertragen.
 <br><br>
 
@@ -50,7 +50,7 @@ Die App bietet auch eine einfache Möglichkeit, Spielstände und Einstellungen z
 - Identifikation von Skalen und Modi
 Je nach Einstellung können die Akkorde auch arpeggiert gespielt werden.
 - Kadenzen Jazz und Pop (diatonisch in Dur und Moll, modaler Austausch, Modulationen und weitere)
-- Über 50 klassische Kadenzen: Zwischendominanten, plagale Kadenzen, Lagen, Neapolitanischer Sextakkord, Vorhalts-Quartsextakkorde, Pachelbel-Kadenzen, übermässiger Quartsextakkorde, Ellipsen, Lamento-Bewegungen und weitere
+- Über 50 klassische Kadenzen: Zwischendominanten, plagale Kadenzen, Lagen, Neapolitanischer Sextakkord, Vorhalts-Quartsextakkorde, Pachelbel-Kadenzen, übermässiger Quartsextakkorde, Ellipsen, Lamento-Bewegungen und weitere (siehe :base-link{to="https://www.eliaschenker.com/ET_App/KlassischeKadenzenET-EarTrainer.pdf"}[hier])
 <br><br>
 
 **An wen richtet sich die App?**
@@ -184,7 +184,7 @@ Es ist noch nicht ganz klar, ob ein absolutes Gehör angeboren ist oder im Klein
 #title
 Ich spiele Trompete und suche eine Unterstützung beim Mundstück-Buzzen (Buzzing) - kann die App hier helfen?
 #text
-Ja. Da die App nur mehr oder weniger konstante und gut intonierte Töne anerkennt, kann sie helfen, die Intonation und die Luftführung beim Buzzen zu verbessern. Zwei Übungsbeispiele:
+Ja. Da die App nur mehr oder weniger konstante und gut intonierte Töne anerkennt, kann sie helfen, die Intonation und die Luftführung beim Buzzen zu verbessern. Zwei Übungsbeispiele: \
 1\. Einfache Übung, Range: 1 Oktave
 - _Imitation Diatonisch_ wählen. Nach der Aufforderung einen beliebigen Grundton buzzen. Die App spielt nach der Durtonleiter zufällige Töne ab, die nachgespielt werden müssen. Falls die Option "Easy" eingestellt ist, wird zuerst die ganze aufsteigende Leiter abgefragt.
 
@@ -229,7 +229,7 @@ Klassische Kadenzen
 #title
 Ich habe ein neues Handy und möchte meine Spielstände sowie Einstellungen übertragen - geht das?
 #text
-Ja, das geht sehr einfach. Mit der Backup-Funktion in den_Einstellungen_ können App-Einstellungen, Highscores und Statistiken inklusive Akkordauswahl-Einstellungen auf ein anderes Gerät geladen werden. Die Daten (nur App-interne Daten, keine Benutzerangaben) werden in der Cloud abgespeichert. Bei erfolgreicher Speicherung (das Handy muss mit dem Internet verbunden sein) wird ein 10-stelliger, kopierbarer Code ausgegeben. Mit diesem Code können die Daten auf das neue Handy geladen werden: gehe zu _Einstellungen_, wähle _Backup herunterladen_.
+Ja, das geht sehr einfach. Mit der Backup-Funktion in den _Einstellungen_ können App-Einstellungen, Highscores und Statistiken inklusive Akkordauswahl-Einstellungen auf ein anderes Gerät geladen werden. Die Daten (nur App-interne Daten, keine Benutzerangaben) werden in der Cloud abgespeichert. Bei erfolgreicher Speicherung (das Handy muss mit dem Internet verbunden sein) wird ein 10-stelliger, kopierbarer Code ausgegeben. Mit diesem Code können die Daten auf das neue Handy geladen werden: gehe zu _Einstellungen_, wähle _Backup herunterladen_.
 ::
 
 ::faq-item
@@ -311,7 +311,7 @@ Link einem Interview der ETH Zurich
 
 ### Elia Schenker
 
-Zurzeit absolviert Elia Schenker eine vierjährige Ausbildung zum Informatiker EFZ, die ein einjähriges Praktikum bei der Zürcher Informatikfirma Digio AG beinhaltet.
+Elia Schenker absolvierte die Ausbildung zum Informatiker EFZ, die er 2023 mit einer IPA mit Höchstnote abschloss. Er arbeitet bei der Zürcher Informatikfirma Digio AG.
 
 ::content-link{to=https://www.eliaschenker.com}
 Link zur Website
