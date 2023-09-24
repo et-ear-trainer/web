@@ -20,7 +20,7 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.9.0",
     "eslint-utils": "^3.0.0",
-    "nuxt": "^3.3.1",
+    "nuxt": "^3.7.3",
     "sass": "^1.58.0",
     "sass-loader": "^13.2.0",
     "typescript": "^4.9.5"
@@ -29,6 +29,7 @@
     "@vuelidate/core": "^2.0.0",
     "@vuelidate/validators": "^2.0.0",
     "@vueuse/nuxt": "^9.12.0",
+    "postcss-custom-properties": "^13.3.1",
     "swiper": "^9.1.1",
     "vue-countup-v3": "^1.1.0"
   }

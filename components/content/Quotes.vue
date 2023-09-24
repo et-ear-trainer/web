@@ -21,10 +21,6 @@
 <script lang="ts" setup>
   const quotes = [
     {
-      quote: 'I’m studying jazz, and this is the perfect app to improve my skills.',
-      person: 'App Store Review'
-    },
-    {
       quote: 'Die Voicings haben mich überzeugt! Endlich mal ein Gehörbildungssoftware, wo die Voicings so sind, wie sie in der Praxis auch meist gespielt werden.',
       person: 'Thomas Silvestri, Pianist / Komponist'
     },
