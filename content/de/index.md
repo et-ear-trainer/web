@@ -24,7 +24,7 @@ Die App entstand als Trainingsinstrument für die Studierenden der Jazz- und Pop
 
 **Wie die App funktioniert**
 
-Die App bietet zahlreiche nicht zuletzt auch vergnügliche Übungen fürs Training des Gehörs: des aktiven wie des passiven Hörens. Beim "aktiven" Hören ist das Reproduzieren von Gehörtem auf dem Instrument oder mit der Stimme gemeint, beim "passiven" Hören das diesem vorausgehende Identifizieren von Skalen, Dreiklängen, Obertönen (Tensions), Slash-Chords etc. Speziell an unserer App ist u.a., dass dank des Mikrofons gleichsam ein Dialog zwischen App und Musiker:in möglich wird – bei Stimmen, bei Blas- und Streichinstrumenten, Gitarre, Klavier, E-Bass. Leitend ist der Praxisbezug verwendeter Voicings. Die App arbeitet zudem mit einer detaillierten Lernkontrolle – über diese kann die App die Übungen dann auch gezielt individualisieren. Zusätzlich sind über 250 Achievements erreichbar. Miss dich mit anderen Usern und veröffentliche deine Highscores und Trophäen auf dem App-eigenen Leaderboard!
+Die App bietet zahlreiche nicht zuletzt auch vergnügliche Übungen fürs Training des Gehörs: des aktiven wie des passiven Hörens. Beim "aktiven" Hören ist das Reproduzieren von Gehörtem auf dem Instrument oder mit der Stimme gemeint, beim "passiven" Hören das diesem vorausgehende Identifizieren von Skalen, Dreiklängen, Obertönen (Tensions), Slash-Chords etc. Speziell an unserer App ist u.a., dass dank des Mikrofons gleichsam ein Dialog zwischen App und Musiker:in möglich wird – bei Stimmen, bei Blas- und Streichinstrumenten, Gitarre, Klavier, E-Bass. Leitend ist der Praxisbezug verwendeter Voicings. Die App arbeitet zudem mit einer detaillierten Lernkontrolle – über diese kann die App die Übungen dann auch gezielt individualisieren. Zusätzlich sind über 270 Achievements erreichbar. Miss dich mit anderen Usern und veröffentliche deine Highscores und Trophäen auf dem App-eigenen Leaderboard!
 Die App bietet auch eine einfache Möglichkeit, Spielstände und Einstellungen zu sichern und auf andere Geräte zu übertragen.
 <br><br>
 
@@ -49,7 +49,7 @@ Die App bietet auch eine einfache Möglichkeit, Spielstände und Einstellungen z
 - Sämtliche 12 Dur- und Moll-Dreiklänge über einen Grundton (Slash Chords / Hybrids)
 - Identifikation von Skalen und Modi
 Je nach Einstellung können die Akkorde auch arpeggiert gespielt werden.
-- Kadenzen Jazz und Pop (diatonisch in Dur und Moll, modaler Austausch, Modulationen und weitere)
+- Kadenzen Jazz und Pop (diatonisch in Dur und Moll, Sekundär- und Substitut-Dominanten, modaler Austausch, Modulationen und weitere)
 - Über 50 klassische Kadenzen: Zwischendominanten, plagale Kadenzen, Lagen, Neapolitanischer Sextakkord, Vorhalts-Quartsextakkorde, Pachelbel-Kadenzen, übermässiger Quartsextakkorde, Ellipsen, Lamento-Bewegungen und weitere (siehe :base-link{to="https://www.eliaschenker.com/ET_App/KlassischeKadenzenET-EarTrainer.pdf"}[hier])
 <br><br>
 
@@ -243,7 +243,7 @@ Ja, das geht sehr einfach. Mit der Funktion Backup erstellen (_Einstellungen_) k
 #title
 Wenn ich mein Handy um 90 Grad drehe, passiert nichts - ist das richtig?
 #text
-Das ist richtig, die App verwendet bei Smartphone das Hochformat; iPads lassen auch das Querformat zu.
+Ab der Version 1.15 wird bei den Smartphones im Hauptmenü ein bildschirmfüllendes Keyboard angezeigt, wenn man das Handy um 90 Grad dreht. Falls das nicht funktioniert: Ausrichtungssperre im Kontrollzentrum deaktivieren. In den Übungen ist diese Funktion deaktiviert.
 ::
 
 ::faq-item

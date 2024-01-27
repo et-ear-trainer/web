@@ -23,7 +23,7 @@ Playing jazz, pop and improvised music means being able to quickly recognize and
 
 **How it works**
 
-The app offers a host of ear-training exercises, many of them quite enjoyable, all designed to enhance both active and passive hearing. Active hearing means reproducing what you have heard on an instrument or with your voice, while passive hearing refers to the ability to identify such things as the scales, triads and four-note-chords, tensions and slash chords, on which active hearing is based. One of the features that makes our app so special is the fact that its microphone enables a sort of dialogue between the app and the musician – whether on voice, wind, string instruments, guitar, piano or electric bass. Unlike other apps, this one uses an integrated voicing generator to ensure that the chords played (position, voicing) correspond to the actual performance situation. In addition, the app uses a detailed educational guidance system, which allows users to individually customize the exercises. You can obtain over 250 achievements. Compete with other users and publish your high scores and trophies on the in-app leaderboard!
+The app offers a host of ear-training exercises, many of them quite enjoyable, all designed to enhance both active and passive hearing. Active hearing means reproducing what you have heard on an instrument or with your voice, while passive hearing refers to the ability to identify such things as the scales, triads and four-note-chords, tensions and slash chords, on which active hearing is based. One of the features that makes our app so special is the fact that its microphone enables a sort of dialogue between the app and the musician – whether on voice, wind, string instruments, guitar, piano or electric bass. Unlike other apps, this one uses an integrated voicing generator to ensure that the chords played (position, voicing) correspond to the actual performance situation. In addition, the app uses a detailed educational guidance system, which allows users to individually customize the exercises. You can obtain over 270 achievements. Compete with other users and publish your high scores and trophies on the in-app leaderboard!
 The app also offers an easy way to backup statistics and settings and transfer them to other devices.
 <br><br>
 
@@ -48,7 +48,7 @@ The app also offers an easy way to backup statistics and settings and transfer t
 - All 12 major and minor triads above a root tone (slash chords/hybrids)
 - Identification of scales and modes
 Depending on the setting, the chords can also be played arpeggiated.
-- Chord progressions jazz and pop (diatonic in major and minor, modal interchange, modulations and others)
+- Chord progressions jazz and pop (diatonic in major and minor, secondary and substitute dominants, modal interchange, modulations and others)
 - Over 50 classical progressions: Predominant chords, plagal resolutions, top note positions, the Neapolitan sixth chord, suspended fourth sixth chords, Pachelbel progressions, augmented fifth sixth chords, lamento movements, elliptic functions and many more (see :base-link{to="https://www.eliaschenker.com/ET_App/KlassischeKadenzenET-EarTrainer.pdf"}[here])
 <br><br>
 
@@ -242,7 +242,7 @@ Yes, this is very easy. With the _Create backup_ function (_Settings_), high sco
 #title
 When I turn my phone 90 degrees, nothing happens - is that correct?
 #text
-That's right, the app uses portrait format for smartphones; iPads also allow landscape format.
+From version 1.15, a full-screen keyboard is displayed in the main menu when the phone is turned 90 degrees. If this does not work: Deactivate the Orientation Lock in the Control Center. This function is deactivated during the exercises.
 ::
 
 ::faq-item
