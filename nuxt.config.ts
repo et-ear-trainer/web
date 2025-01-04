@@ -19,6 +19,10 @@ export default defineNuxtConfig({
             { rel: 'mask-icon', href: '/ET_App/safari-pinned-tab.svg', color: '#da532c'},
 
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons+Round' }
+          ],
+          script: [
+            { src: '/ET_App/tracker.js' },
+            { src: 'https://www.googletagmanager.com/gtag/js?id=AW-11538783518', async: true }
           ]
         }
     },
