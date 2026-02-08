@@ -39,7 +39,7 @@
     "label-email": "Email",
     "label-message": "Message",
     "submit": "Submit",
-    "submiting": "Sending...",
+    "submitting": "Sending...",
     "submitted": "Sent!",
     "errors": {
       "required": "{field} is required",
