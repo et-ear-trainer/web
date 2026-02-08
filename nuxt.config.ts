@@ -95,4 +95,7 @@ gtag('config', 'AW-11538783518');` },
     // transpile module to prevent issue in builds
     transpile: ['vue-countup-v3'],
   },
+  content: {
+    experimental: { sqliteConnector: 'native' },
+  },
 });
