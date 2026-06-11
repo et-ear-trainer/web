@@ -15,7 +15,7 @@ description: Yet another ear-training app? Well, this one is different!
 #title
 New Exercise in Version
 #subtitle
-Triads: in addition to root notes and positions, now also identify inversions
+Interval series
 ::
 
 :divider

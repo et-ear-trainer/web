@@ -15,7 +15,7 @@ description: Wieso noch eine weitere Gehörbildungs-App? Diese ist anders!
 #title
 Neue Übung in Version
 #subtitle
-Dreiklänge Umkehrungen / Basstonlagen
+Intervallpaare / Serien von Intervallen
 ::
 
 :divider

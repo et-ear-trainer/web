@@ -37,7 +37,7 @@
                 text-7xl
                 mb-2"
             >
-            1.19
+            1.20
         </p>
         <p class="text-xl text-center px-12">
             <slot

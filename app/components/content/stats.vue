@@ -9,7 +9,7 @@
       <count-up
         ref="counter1"
         :start-val="0"
-        :end-val="2100"
+        :end-val="2400"
         :duration="3"
       >
         <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
@@ -27,7 +27,7 @@
       <count-up
         ref="counter2"
         :start-val="0"
-        :end-val="44"
+        :end-val="46"
         :duration="3"
       />
       <p> {{ $t('stats.exercises') }} </p>
@@ -42,7 +42,7 @@
       <count-up
         ref="counter3"
         :start-val="0"
-        :end-val="272"
+        :end-val="280"
         :duration="3"
       />
       <p>{{ $t('stats.achievements') }}</p>
